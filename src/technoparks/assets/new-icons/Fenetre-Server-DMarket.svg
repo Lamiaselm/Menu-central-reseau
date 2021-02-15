@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="273px" height="273px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 13.44 13.44"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none;fill-rule:nonzero}
+    .fil1 {fill:#363636;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Plan_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1712018243520">
+   <g>
+    <polygon class="fil0" points="13.44,13.44 0,13.44 0,0 13.44,0 "/>
+   </g>
+   <g>
+    <path class="fil1" d="M12.32 3.92l0 -1.68c0,-0.31 -0.25,-0.56 -0.56,-0.56l-10.08 0c-0.31,0 -0.56,0.25 -0.56,0.56l0 1.68c0,0.31 0.25,0.56 0.56,0.56l0 5.6 -0.56 0 0 1.12 5.04 0 0 1.12 1.12 0 0 -1.12 5.04 0 0 -1.12 -0.56 0 0 -5.6c0.31,0 0.56,-0.25 0.56,-0.56zm-10.08 -1.12l0 0 8.96 0 0 0.56 -8.96 0 0 -0.56zm8.4 7.28l0 0 -7.84 0 0 -5.6 7.84 0 0 5.6z"/>
+    <path class="fil1" d="M5.04 8.96c0.93,0 1.68,-0.75 1.68,-1.68l-1.68 0 0 -1.68c-0.93,0 -1.68,0.75 -1.68,1.68 0,0.93 0.75,1.68 1.68,1.68z"/>
+    <path class="fil1" d="M5.6 5.04l0 1.68 1.68 0c0,-0.93 -0.75,-1.68 -1.68,-1.68z"/>
+    <polygon class="fil1" points="10.08,5.04 8.4,5.04 8.4,6.16 10.08,6.16 "/>
+    <polygon class="fil1" points="10.08,6.72 7.84,6.72 7.84,7.84 10.08,7.84 "/>
+    <polygon class="fil1" points="6.72,9.52 10.08,9.52 10.08,8.4 6.72,8.4 "/>
+   </g>
+  </g>
+ </g>
+</svg>
