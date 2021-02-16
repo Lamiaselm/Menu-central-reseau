@@ -369,7 +369,11 @@ if ($url =='djiant.com' ) {
                     
                     <button disabled style="border-radius: 3px !important;font-size: 14px;  " type="button" class="btn btn-default" id="voir_maquette">See the mock-up</button>
                   </div>
+                <!---------------------------------------MENU CENTRAL DEPUIS UN RESEAU POPUP START------------------------------------------------------------------------>
 
+
+
+                <!---------------------------------------MENU CENTRAL DEPUIS UN RESEAU POPUP END------------------------------------------------------------------------>
 
                   <div class="col-md-8 " style="padding-right: 0px;">
                                <div class="slideshow-container">
@@ -400,7 +404,7 @@ if ($url =='djiant.com' ) {
                 </div>
                 
               </div>
-<div id="Djiant-addserver-popup" class="modal" >
+              <div id="Djiant-addserver-popup" class="modal" >
               <div class="modal-header ">
                   <button type="button" id="popupClose" class="close" data-dismiss="modal" aria-hidden="true"></button>
                   <div class=" d-flex line1" style="margin-left: 20px;"><img src="assets/new-icons/IconServerPlus.svg" class="icon mr-2"><h4>Create a community </h4></div>
@@ -513,7 +517,7 @@ if ($url =='djiant.com' ) {
             </div>
 <div id="Djiant-about-popup" class="modal" >
               <div class="modal-header ">
-                  <button type="button" id="popupClose" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                  <button type="button" id="popupClose" class="close" data-dismiss="modal" ></button>
                   <div class=" d-flex line1" style="margin-left: 20px;"><img src="assets/image/logo-djiant.svg" class="icon mr-2"><h4>About Djiant  </h4></div>
               </div>
                
@@ -847,11 +851,11 @@ if ($url =='djiant.com' ) {
 
 </script>
 <script>
-// $j optional alias to jQuery noConflict()
-var $j = jQuery.noConflict();
+// $ optional alias to jQuery noConflict()
+var $ = jQuery.noConflict();
 
-$j(document).ready(function() {
-	$j('[data-toggle="popover"]').popover();
+$(document).ready(function() {
+	$('[data-toggle="popover"]').popover();
 });
 </script>
 <script>

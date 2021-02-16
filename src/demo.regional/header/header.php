@@ -7557,6 +7557,40 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     top: -2px;
     right: 8px; }
 
+.disabled-network  {
+  opacity: 0.5;
+}
+.active-network:hover {
+   box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 22%);
+   cursor: pointer;
+}
+.main-network:hover {
+   box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 22%);
+   cursor: pointer;
+}
+.main-network {
+  margin-top:0px;
+  margin-left:0px;
+
+
+}
+.active-network{
+border: 0.1px solid #ddddddab;
+}
+.disabled-network  img {
+  opacity: 0.4;
+}
+.active-network p{
+  font-family: calibri; 
+  font-weight: 100; 
+  font-size: 12px;
+}
+.disabled-network p{
+  font-family: calibri; 
+  font-weight: 100; 
+  font-size: 12px;
+}
+
 .showAddServer   h6, .showServers   h6, .showNetworks   h6 {
     margin-left: 15px;
     margin-top: 10px;
