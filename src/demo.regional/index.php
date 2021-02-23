@@ -100,14 +100,14 @@ if ($url =='djiant.com' ) {
         <ul id="racine" >	
 							
           <li  style="padding:5px 0px 5px 0px;" >	
-            <div class="row racine1" style="margin: 0px;padding: 0px; ">
-            <div class="col-md-8 racine "style="margin: 0px 0px 0px 0px;padding: 0px;">
+            <div class="row racine1 racine-down" style="margin: 0px;padding: 0px; ">
+            <div class="col-md-8 racine racine-down "style="margin: 0px 0px 0px 0px;padding: 0px;">
               Regional Economies
             </div>
           </div>
         
         
-          <ul class="domaine" style="margin-left: 25px;">
+          <ul class="domaine active" style="margin-left: 25px;">
             <div class="djiant-col-md-9 djiant-network" id="network_1">
               <div class="row" >
                   <div class="djiant-col-md-8 " style="margin-top: 10px;margin-left:-55px;">
