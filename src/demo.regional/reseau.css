@@ -2,7 +2,7 @@
     background-color: white;
     cursor: pointer;
     z-index: 1;
-    width: 800px;
+    
    
 
     
@@ -12,8 +12,8 @@
    
 }
 .popupInfo-reseau{
-    width: 50%;
-    height: 600px;
+    width: 45%;
+    height: 650px;
     position: absolute;
     left: 40px;
     top: 0%;

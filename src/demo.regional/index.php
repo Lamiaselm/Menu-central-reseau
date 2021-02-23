@@ -93,7 +93,7 @@ if ($url =='djiant.com' ) {
         </div>
         <!-- END HEADER -->
 
-        <div class="scrollable" style="margin-left: 3px;   max-height: 725px; direction: rtl;  ">
+        <div class="scrollable" style="max-height: 530px; direction: rtl;  ">
           <div class="container" style="direction: ltr; ">
 
           
