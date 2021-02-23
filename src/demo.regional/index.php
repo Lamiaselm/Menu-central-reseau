@@ -55,7 +55,7 @@ if ($url =='djiant.com' ) {
         <!-- BEGIN HEADER -->
         <div class="page-header -i navbar navbar-fixed-top" style="border: none;">
           <!-- BEGIN HEADER INNER -->
-          <div class="page-header-inner">
+          <div class="page-header-inner" style="padding-top: 10px;">
             <!-- BEGIN LOGO -->
             <div class="page-logo">
               <img id="djiant" style="margin-right: 6px; margin-top: 2px" src="assets/image/logo-djiant.svg" width="22px"> 
