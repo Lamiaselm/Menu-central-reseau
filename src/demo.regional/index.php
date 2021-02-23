@@ -48,8 +48,8 @@ if ($url =='djiant.com' ) {
 
     </div>
     <div   class="popupInfo-reseau">
-      <div  class="body"> 
-        <div class="thumbnail">
+      <div  class="body" style="height:100%;"> 
+        <div class="thumbnail"style="height:100%;">
         <div class="reseau-container">
      
         <!-- BEGIN HEADER -->
