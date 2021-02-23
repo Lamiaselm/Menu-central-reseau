@@ -6,9 +6,18 @@ body{
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 22%);
     cursor: pointer;
     z-index: 1;
-    height: 4700px;
+    height: 100%;
 }
 #racine{
     margin-top: 10px;
-    padding-left: 35px;
+   
 }
+.scrollable-menu {
+    height: auto;
+    max-height: 725px;
+    overflow-x: hidden;
+}
+.scrollable ::-webkit-scrollbar-thumb {
+
+    height: 20px !important;
+  }
