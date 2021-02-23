@@ -63,13 +63,16 @@ if ($url =='djiant.com' ) {
      
         <!-- BEGIN HEADER -->
         <div class="page-header -i navbar navbar-fixed-top" style="border: none;">
+       
           <!-- BEGIN HEADER INNER -->
           <div class="page-header-inner" style="padding-top: 10px;">
+          <span id="close">x</span>
             <!-- BEGIN LOGO -->
             <div class="page-logo">
               <img id="djiant" style="margin-right: 6px; margin-top: 2px" src="assets/image/logo-djiant.svg" width="22px"> 
         
                <span  >  Djiant </span> 
+              
                
               <div class="menu-toggler sidebar-toggler hide">
               </div>
@@ -3695,8 +3698,16 @@ if ($url =='djiant.com' ) {
 $(document).on("click","#reseau-button",function(){
   
     $('.popupInfo').hide();
-    $('.popupInfo-reseau').css("display","block");
+    $('.popupInfo-reseau').show();
    
+
+
+});
+$(document).on("click","#close",function(){
+  
+  $('.popupInfo').hide();
+  $('.popupInfo-reseau').hide();
+ 
 
 
 });
