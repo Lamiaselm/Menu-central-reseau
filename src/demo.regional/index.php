@@ -47,7 +47,16 @@ if ($url =='djiant.com' ) {
         </ul>
 
     </div>
-    <div   class="popupInfo-reseau">
+    <div   class="popupInfo">
+      <div  class="body" > 
+        <div class="thumbnail">
+       
+           <img  src="assets/image/Vignette-reseau-Regional.png" alt="Regional Djiant" >
+        </div>
+
+    </div>
+  </div>
+    <div   class="popupInfo-reseau" style="display:none;">
       <div  class="body" style="height:100%;"> 
         <div class="thumbnail"style="height:100%;">
         <div class="reseau-container">
@@ -3677,16 +3686,16 @@ if ($url =='djiant.com' ) {
   });
 
   $(document).on("click",".body",function(){
-  //  $('.popupInfo').hide();
+    $('.popupInfo').hide();
     $('#popupInfo-li').removeClass('selected-menu');
     $('.side-Menu').removeClass('selected-menu');
 
 
 });
 $(document).on("click","#reseau-button",function(){
- 
+  
     $('.popupInfo').hide();
-    $('#reseau-container').css("display","block");
+    $('.popupInfo-reseau').css("display","block");
    
 
 
