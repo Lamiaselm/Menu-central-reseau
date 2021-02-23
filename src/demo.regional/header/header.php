@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -14,8 +15,9 @@
 	<link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 <link href="assets/global/plugins/racine/racine.css" rel="stylesheet" type="text/css"/> 
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=LtJU7n95rdlCKUNXtC6XsLv0VmRF52ElxeLuG9VmDiCpUtL_dnBCaP3grdPduqKU" charset="UTF-8"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/global/css/toastr.css" />
+  <link rel="stylesheet" type="text/css" href="./reseau.css" />
 <!-- END GLOBAL MANDATORY STYLES -->
 <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
 	<link href="assets/global/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" rel="stylesheet" type="text/css"/>
@@ -301,6 +303,42 @@ a.Djiant-racine-thumbnail:focus {
   transition: background-color 0.6s ease;
 }
 
+.disabled-network  {
+  opacity: 0.5;
+}
+.active-network:hover {
+   box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 22%);
+   cursor: pointer;
+}
+.main-network:hover {
+   box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 22%);
+   cursor: pointer;
+}
+.main-network {
+  margin-top:0px;
+  margin-left:0px;
+
+
+}
+.active-network{
+border: 0.1px solid #ddddddab;
+}
+.disabled-network{
+border: 0.1px solid #ddddddab;
+}
+.disabled-network  img {
+  opacity: 0.4;
+}
+.active-network p{
+  font-family: calibri; 
+  font-weight: 100; 
+  font-size: 12px;
+}
+.disabled-network p{
+  font-family: calibri; 
+  font-weight: 100; 
+  font-size: 12px;
+}
 
 
  .active-dot-DFigures, .dot-DFigures:hover {
@@ -7556,40 +7594,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     margin: 8px;
     top: -2px;
     right: 8px; }
-
-.disabled-network  {
-  opacity: 0.5;
-}
-.active-network:hover {
-   box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 22%);
-   cursor: pointer;
-}
-.main-network:hover {
-   box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 22%);
-   cursor: pointer;
-}
-.main-network {
-  margin-top:0px;
-  margin-left:0px;
-
-
-}
-.active-network{
-border: 0.1px solid #ddddddab;
-}
-.disabled-network  img {
-  opacity: 0.4;
-}
-.active-network p{
-  font-family: calibri; 
-  font-weight: 100; 
-  font-size: 12px;
-}
-.disabled-network p{
-  font-family: calibri; 
-  font-weight: 100; 
-  font-size: 12px;
-}
 
 .showAddServer   h6, .showServers   h6, .showNetworks   h6 {
     margin-left: 15px;

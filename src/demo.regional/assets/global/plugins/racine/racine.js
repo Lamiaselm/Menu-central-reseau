@@ -1,11 +1,26 @@
+
+var racine1 = document.getElementsByClassName("racine1");
 var racine = document.getElementsByClassName("racine");
+console.log(racine)
+console.log(racine1)
 var i;
-for (i = 0; i < racine.length; i++) {
-  racine[i].addEventListener("click", function() {
+console.log(racine1.length);
+for (i = 0; i < racine1.length; i++) {
+  console.log(racine1.length);
+  console.log('hey1');
+  racine1[i].addEventListener("click", function() {
     this.parentElement.querySelector(".domaine").classList.toggle("active");
     this.classList.toggle("racine-down");
   });
 }
+for (i = 0; i < racine.length; i++) {
+  console.log('hey1');
+  racine[i].addEventListener("click", function() {
+    this.classList.toggle("racine-down");
+    console.log('hey2');
+  });
+}
+
 
     var $domaine = $('.domaine-list').on('click', function(e) {
     $domaine.removeClass('selected');
@@ -49,4 +64,11 @@ $(document).on({
   }
 );
 });
+
+
+
+ 
+
+
+
    

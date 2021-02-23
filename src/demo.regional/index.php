@@ -31,9 +31,9 @@ if ($url =='djiant.com' ) {
           <li  class="mt-2 ml-2"> <img id="zoomin" width="22px" src="assets/new-icons/Zoomplus.svg" alt="" style="filter: invert(1);" ></li>
           <li  class="mt-2 ml-2"><img id="zoomout" width="22px" src="assets/new-icons/ZoomMinus.svg" alt="" style="filter: invert(1);" ></li>
           <li  class="mt-2 ml-2"><img  width="22px" src="assets/new-icons/SearchTree.svg" alt="" class=" disable"></li>
-          <li  class="mt-2 ml-2 "  <?php if ($url =='djiant.com' ) {echo'btn-selectedd';} ?> data-target="#Djiant-racine-popup" data-toggle=""><img id="popupRacine-btn"   width="22px" src="assets/new-icons/MenuDomains.svg" alt=""  class=" disable"></li>
+          <li  class="mt-2 ml-2 "   data-target="#Djiant-racine-popup" data-toggle=""><img id="popupRacine-btn"   width="22px" src="assets/new-icons/MenuDomains.svg" alt=""  class=" disable"></li>
           <li   class="mt-2 ml-2 " data-target="#Djiant-addserver-popup" data-toggle=""><img width="22px" src="assets/new-icons/IconServerPlus.svg" alt="" class=" disable"></li>
-          <li  class="mt-2 ml-2 " data-target="#Djiant-about-popup" data-toggle=""><img  width="22px" src="assets/new-icons/AboutDjiant.svg" alt=""></li>
+          <li  class="mt-2 ml-2 " id="reseau-button" ><img  width="22px" src="assets/new-icons/AboutDjiant.svg" alt="" class=" disable"></li>
           
 
         </ul>
@@ -47,14 +47,779 @@ if ($url =='djiant.com' ) {
         </ul>
 
     </div>
-    <div   class="popupInfo ">
+    <div   class="popupInfo-reseau">
       <div  class="body"> 
         <div class="thumbnail">
-            <img  src="assets/image/Vignette-reseau-Regional.png" alt="Regional Djiant" >
+        <div class="reseau-container">
+     
+        <!-- BEGIN HEADER -->
+        <div class="page-header -i navbar navbar-fixed-top" style="border: none;">
+          <!-- BEGIN HEADER INNER -->
+          <div class="page-header-inner">
+            <!-- BEGIN LOGO -->
+            <div class="page-logo">
+              <img id="djiant" style="margin-right: 6px; margin-top: 2px" src="assets/image/logo-djiant.svg" width="22px"> 
+        
+               <span  >  Djiant </span> 
+               
+              <div class="menu-toggler sidebar-toggler hide">
+              </div>
+            </div>
+            
+        
+            <!-- END LOGO -->
+          </div>
+          <!-- END HEADER INNER -->
+        </div>
+        <div class="page-header -i navbar navbar-fixed-top" id="navbar-fixed-top" style="margin-top: -10px; border: none;margin-left: -15px;;">
+          <!-- BEGIN HEADER INNER -->
+          <div class="page-header-inner">
+        <div class="tabbable-line " style="    padding-left: 0px;">
+                      
+                        <ul class="nav nav-tabs ">
+                          <li>
+                            <a id="tab_1" data-toggle="tab">
+                            <h4 style="margin:0px; font-weight: 400;" >Navigate</h4> </a>
+                          </li>
+                          <li >
+                            <a id="tab_2" data-toggle="tab">
+                          <h4 style="margin:0px; font-weight: 400;" >More info...</h4>	 </a>
+                          </li>
+                          
+                        </ul>
+          </div>
+          </div>
+          <!-- END HEADER INNER -->
+        </div>
+        <!-- END HEADER -->
+
+        <div class="scrollable" style="margin-left: 3px;   max-height: 725px; direction: rtl;  ">
+          <div class="container" style="direction: ltr; ">
+
+          
+        <ul id="racine" >	
+							
+          <li  style="padding:5px 0px 5px 0px;" >	
+            <div class="row racine1" style="margin: 0px;padding: 0px; ">
+            <div class="col-md-8 racine "style="margin: 0px 0px 0px 0px;padding: 0px;">
+              Regional Economies
+            </div>
+          </div>
+        
+        
+          <ul class="domaine" style="margin-left: 25px;">
+            <div class="djiant-col-md-9 djiant-network" id="network_1">
+              <div class="row" >
+                  <div class="djiant-col-md-8 " style="margin-top: 10px;margin-left:-55px;">
+                  <div class="thumbnail disabled-network" style="border: none;">
+                     <div class="row" style="margin-left: 17px; ">
+                        <div class="col-md-4" style="padding-left: 10px; padding-top: 8px;    border: solid 1px #ddd;">
+                           <div class="caption popupInfo-body" style="    padding-bottom: 0px; ">
+                                           <div class="row">
+                                             <div class="col-md-12">
+                                              <p style="font-size: 14px; color: #008DD2; margin-bottom: 3px;">Main network</p>
+                                              <h4 class="djiant-title" style="font-size: 18px; font-family: arial black;">REGIONAL ECONOMIES </h4>
+                                              <p class="decouvrez-djiant" style="font-size: 15px;line-height: 21px;"> LOCAL ECONOMY. NATIVE COMMUNITY  </p>
+                                              <p class="djiant-block-4" style="padding-bottom: 30px;">A Djiant Network of regional business communities in partnership with local newspapers.</p>
+                                               </div>
+                                           </div>
+                                           <div class="row">
+                                                   <div class="col-md-3">
+                                                     <h3 style="font-size: 18px;margin-top: 10px">20</h3>
+                                                     <p>Covered countries   </p>
+                                                   </div>
+                                                  
+                                                   <div class="col-md-3">
+                                                     <h3 style="font-size: 18px;margin-top: 10px">251</h3>
+                                                     <p>Communties    </p>
+                                                   </div>
+                                                   
+                                                 </div>
+                                         </div>  
+                        </div>
+                        <div class="col-md-7" style="padding-left: 0px;">
+                               <img src="assets/image/Regional.png"  style="width: 393.859px;height: 297.188px; display: block;" >
+                        </div>      
+                     </div>
+                                          
+                                         
+             </div>   
+              </div>
+            </div>
+          </div>
+              <div class="row">
+                     <div class="djiant-col-md-9 " style="margin-top: 20px;margin-left: -7px;">
+                      <div class="row">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
+                          <div class="thumbnail disabled-network">
+                                                <img src="assets/image/60x60.png"  style="width: 100%; height: 140px; display: block;">
+                                                <div class="caption popupInfo-body">
+                                                 <div class="row">
+                                                   <div class="col-md-12">
+                                                     <h4 style=" font-size: 14px;">CCI FRANCE INTERNATIONAL</h4>
+                                                     <p style="font-family: calibri; font-weight: 100;">    Abroad French Chambers of Commerce, gathering a global community of 38.500 businesses.  </p>
+                                                     </div>
+                                                 </div>
+
+                                               </div>
+                           </div>
+                      </div>
+                       <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;">
+                            <div class="thumbnail active-network" id="TECHNOPARKS">
+                                                  <img src="assets/image/Technoparks.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                                                  <div class="caption popupInfo-body ">
+                                                   <div class="row">
+                                                     <div class="col-md-12">
+                                                       <h4 style=" font-size: 14px;">TECHNOPARKS </h4>
+                                                       <p style="font-family: calibri; font-weight: 100;"> Places where tomorow’s economy is invented.   </p>
+                     
+                                                       </div>
+                                                   </div>
+                                                   <div class="row">
+                                                           <div class="col-md-4">
+                                                             <h3 style="font-size: 18px;margin-top: 10px">71</h3>
+                                                             <p>Covered countries   </p>
+                                                           </div>
+                                                          
+                                                           <div class="col-md-4">
+                                                             <h3 style="font-size: 18px;margin-top: 10px">900</h3>
+                                                             <p>Communties    </p>
+                                                           </div>
+                                                           
+                                                         </div>
+                                                 </div>
+                             </div>
+                        </div>
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                          <div class="thumbnail disabled-network" id="Belgian-Chambers">
+                            <img src="assets/image/Belgian-Chambers.png"  style="width: 100%; height: 140px; display: block;">
+                            <div class="caption popupInfo-body">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">  BELGIAN CHAMBERS</h4>
+                                 <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> The Federation of chambers of commerce in Belgium and Belgian chambers abroad.  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top:88px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+                             </div>
+                        </div>
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                          <div class="thumbnail disabled-network " id="Clusters">
+                            <img src="assets/image/Clusters.png"  style="width: 100%; height: 140px; display: block;" >
+                            <div class="caption popupInfo-body">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">CLUSTERS </h4>
+                                 <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> Coming soon </p>
+                                 </div>
+                             </div>
+                            <div class="row" style="margin-top:122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+                             </div>
+                        </div>
+                       
+                      </div>
+                      <div class="row">
+                    
+                        <div class="djiant-col-md-2 " style="margin-left: -16px;width: 180px;    margin-top: 10px;">
+                          <div class="thumbnail disabled-network" id="DevAgencies">
+                            <img src="assets/image/DevAgencies.png"  style="width: 100%; height: 140px; display: block;" >
+                            <div class="caption popupInfo-body">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">DEVELOPMENT AGENCIES </h4>
+                                 <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> Coming soon </p>
+                                 </div>
+                             </div>
+                            <div class="row" style="margin-top:122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+                             </div>
+                        </div>
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                          <div class="thumbnail disabled-network " id="Clusters">
+                            <img src="assets/image/CCI.png"  style="width: 100%; height: 140px; display: block;" >
+                                                                      <div class="caption popupInfo-body">
+                                                                       <div class="row">
+                                                                         <div class="col-md-12">
+                                                                          <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">CHAMB.WORKS  </h4>
+                                                                           <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                                                          Coming soon  </p>
+                                                                           </div>
+                                                                       </div>
+                                                                       <div class="row" style="margin-top: 122px;">
+                                                                              
+                                                                               
+                                                                             </div>
+                                                                      
+                                                                     </div>
+                             </div>
+                        </div>
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                          <div class="thumbnail disabled-network " id="Clusters">
+                            <img src="assets/image/Confederations.png"  style="width: 100%; height: 140px; display: block;" >
+                            <div class="caption popupInfo-body">
+                             <div class="row">
+                               <div class="col-md-12">
+                                <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">BUSINESS FEDERATIONS </h4>
+                                 <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                            
+                           </div>
+                          </div>
+                             </div>
+                        </div>
+                        
+                      </div>
+
+                      </div>
+              
+              
+
+      </ul>
+       </li> 
+       </ul>
+       
+               
+         <ul id="racine" >						
+          <li  style="padding:0px;" >
+          <div class="row racine1" style="margin: 0px;padding: 0px; ">
+            <div class="col-md-8 "style="margin: 0px 0px 0px 0px;padding: 0px;">
+              <span class="racine">Information technologies</span>	
+            </div>
+          </div>
+          <ul class="domaine" style="margin-left: 25px;">
+            <div class="djiant-col-md-9 djiant-network" id="network_1">
+              <div class="row" >
+                  <div class="djiant-col-md-8 " style="margin-top: 10px;margin-left:-55px;">
+                  <div class="thumbnail disabled-network  " style="border: none;">
+                     <div class="row" style="margin-left: 17px; ">
+                        <div class="col-md-4" style="padding-left: 10px; padding-top: 8px;    border: solid 1px #ddd;">
+                           <div class="caption popupInfo-body " style="    padding-bottom: 0px;">
+                                           <div class="row">
+                                             <div class="col-md-12">
+                                              <p style="font-size: 14px; color: #008DD2; margin-bottom: 3px;">Main network</p>
+                                              <h4 class="djiant-title"style="font-size: 18px; font-family: arial black;">INFORMATION TECHNOLOGIES </h4>
+                                              <p class="decouvrez-djiant" style="font-size: 15px;line-height: 21px;"> IT COMMUNITIES ALL AROUND THE WORLD  </p>
+                                              <p class="djiant-block-4" style="padding-bottom: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                               </div>
+                                           </div>
+                                          
+                                         </div>  
+                        </div>
+                        <div class="col-md-7" style="padding-left: 0px;">
+                               <img src="assets/image/IT Communities.jpeg"  style="width: 393.859px;height: 297.188px; display: block;" >
+   
+                        </div>
+
+                            
+                     </div>
+                                          
+                                         
+             </div>   
+              </div>
+            </div>
+          </div>
+              <div class="row">
+                     <div class="djiant-col-md-9 " style="margin-top: 20px;margin-left: -7px;">
+                      <div class="row">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
+                          <div class="thumbnail disabled-network">
+                            <img src="assets/image/Cloud.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                            <div class="caption popupInfo-body ">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">CLOUD </h4>
+                                  <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+                           </div>
+                      </div>
+                        <div class="djiant-col-md-2 " style=" width: 180px;    margin-top: 10px;">
+                            <div class="thumbnail disabled-network">
+                              <img src="assets/image/Data.png"  style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">DATA </h4>
+                                   <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+                             </div>
+                        </div>
+                       <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;">
+                            <div class="thumbnail disabled-network" id="TECHNOPARKS">
+                              <img src="assets/image/Digital ARts.png"  style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">DIGITAL ARTS </h4>
+                                  <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+                             </div>
+                        </div>
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                            <div class="thumbnail disabled-network">
+                              <img src="assets/image/ITHealth.png"  style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">IT HEALTH </h4>
+                                  <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+                             </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
+                            <div class="thumbnail disabled-network">
+                              <img src="assets/image/IT Retail.png"  style="width: 100%; height: 140px; display: block;">
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">IT RETAIL </h4>
+                                  <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+                             </div>
+                        </div>
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                          <div class="thumbnail disabled-network">
+                            <img src="assets/image/60x60.png"  style="width: 100%; height: 140px; display: block;">
+                                                                      <div class="caption popupInfo-body ">
+                                                                       <div class="row">
+                                                                         <div class="col-md-12">
+                                                                           <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">LINUX </h4>
+                                                                          <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                                                          Coming soon  </p>
+                                                                           </div>
+                                                                       </div>
+                                                                       <div class="row" style="margin-top: 122px;">
+                                                                              
+                                                                               
+                                                                             </div>
+                                                                     </div>
+                           </div>
+                      </div>
+                      <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                        <div class="thumbnail disabled-network">
+                          <img src="assets/image/Coding.png"  style="width: 100%; height: 140px; display: block;" >
+                          <div class="caption popupInfo-body ">
+                           <div class="row">
+                             <div class="col-md-12">
+                               <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">Coding</h4>
+                              <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                              Coming soon  </p>
+                               </div>
+                           </div>
+                           <div class="row" style="margin-top: 122px;">
+                                  
+                                   
+                                 </div>
+                         </div>
+                         </div>
+                    </div>
+                    <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                      <div class="thumbnail disabled-network">
+                        <img src="assets/image/Cybersecu.png"  style="width: 100%; height: 140px; display: block;">
+                        <div class="caption popupInfo-body ">
+                         <div class="row">
+                           <div class="col-md-12">
+                             <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">SECURTY </h4>
+                            <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                            Coming soon  </p>
+                             </div>
+                         </div>
+                         <div class="row" style="margin-top: 122px;">
+                                
+                                 
+                               </div>
+                       </div>
+                       </div>
+                       </div>
+                       
+                         </div>
+                         <div class="row">
+                          <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
+                           <div class="thumbnail disabled-network">
+                             <img src="assets/image/Telecom.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                             <div class="caption popupInfo-body ">
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">TELECOM </h4>
+                                 <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                 Coming soon  </p>
+                                  </div>
+                              </div>
+                              <div class="row" style="margin-top: 122px;">
+                                     
+                                      
+                                    </div>
+                             </div>
+                             </div>
+                            </div>
+                           </div>
+                      </div>
+                
+
+                </div>
+
+                        
+                       
+                      
+
+                  
+              
+
+      </ul>
+         </li> 
+         </ul>
+              
+         <ul id="racine" >						
+          <li  style="padding:0px;" >
+          <div class="row racine1" style="margin: 0px;padding: 0px; ">
+            <div class="col-md-8 "style="margin: 0px 0px 0px 0px;padding: 0px;">
+              <span class="racine">Higher Eduation</span>	
+            </div>
+          </div>
+          <ul class="domaine" style="margin-left: 25px;">
+            <div class="djiant-col-md-9 djiant-network" id="network_1">
+              <div class="row" >
+                  <div class="djiant-col-md-8 " style="margin-top: 10px;margin-left:-55px;">
+                  <div class="thumbnail disabled-network  " style="border: none;">
+                     <div class="row" style="margin-left: 17px; ">
+                        <div class="col-md-4" style="padding-left: 10px; padding-top: 8px;    border: solid 1px #ddd;">
+                           <div class="caption popupInfo-body" style="    padding-bottom: 0px;">
+                                           <div class="row">
+                                             <div class="col-md-12">
+                                              <p style="font-size: 14px; color: #008DD2; margin-bottom: 3px;">Main network</p>
+                                              <h4 class="djiant-title"style="font-size: 18px; font-family: arial black;">HIGHER EDUCATION</h4>
+                                              <p class="decouvrez-djiant" style="font-size: 15px;line-height: 21px;"> LOREM IPSUM DOLOR SIT AMET CONS ECTETUR ADIPISCING ELIT IT  </p>
+                                              <p class="djiant-block-4" style="padding-bottom: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                               </div>
+                                           </div>
+                                         
+                                         </div>  
+                        </div>
+                        <div class="col-md-7" style="padding-left: 0px;">
+                               <img src="assets/image/Higher Edu.png"  style="width: 393.859px;height: 297.188px; display: block;" >
+                        </div>
+
+                            
+                     </div>
+                                                 
+             </div>   
+              </div>
+            </div>
+          </div>
+              <div class="row">
+                     <div class="djiant-col-md-9 " style="margin-top: 20px;margin-left: -7px;">
+                      <div class="row">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
+                          <div class="thumbnail disabled-network">
+                            <img src="assets/image/Business Schools.png"  style="width: 100%; height: 140px; display: block;">
+                            <div class="caption popupInfo-body ">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">BUSINESS SCHOOLS </h4>
+                                <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+                           </div>
+                      </div>
+                        <div class="djiant-col-md-2 " style=" width: 180px;    margin-top: 10px;">
+                            <div class="thumbnail disabled-network">
+                              <img src="assets/image/Exec Training.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">EXECUTIVE TRAINING </h4>
+                                <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+                             </div>
+                        </div>
+                       <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;">
+                            <div class="thumbnail disabled-network" id="TECHNOPARKS">
+                              <img src="assets/image/Research.png"  style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">RESEARCH NET </h4>
+                                 <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+                             </div>
+                        </div>
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                            <div class="thumbnail disabled-network">
+                              <img src="assets/image/Universities.png"  style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">UNIVERSITIES </h4>
+                                   <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+                              </div>
+                             </div>
+                        </div>
+                       
+                       
+                      
+
+                      </div>
+              </div>
+              
+
+      </ul>
+         </li> 
+         </ul>
+
+         <ul id="racine" >						
+          <li  style="padding:0px;" >
+          <div class="row racine1" style="margin: 0px;padding: 0px; ">
+            <div class="col-md-8 "style="margin: 0px 0px 0px 0px;padding: 0px;">
+              <span class="racine">Entrepreneurship</span>	
+            </div>
+          </div>
+          <ul class="domaine" style="margin-left: 25px;">
+            <div class="djiant-col-md-9 djiant-network" id="network_1">
+              <div class="row" >
+                  <div class="djiant-col-md-8 " style="margin-top: 10px;margin-left:-55px;">
+                  <div class="thumbnail disabled-network  " style="border: none;">
+                     <div class="row" style="margin-left: 17px; ">
+                        <div class="col-md-4" style="padding-left: 10px; padding-top: 8px;    border: solid 1px #ddd;">
+                           <div class="caption popupInfo-body" style="    padding-bottom: 0px;">
+                                           <div class="row">
+                                             <div class="col-md-12">
+                                              <p style="font-size: 14px; color: #008DD2; margin-bottom: 3px;">Main network</p>
+                                              <h4 class="djiant-title"style="font-size: 18px; font-family: arial black;">ENTREPRENEURSHIP </h4>
+                                              <p class="decouvrez-djiant" style="font-size: 15px;line-height: 21px;"> LOREM IPSUM DOLOR SIT AMET CONS ECTETUR ADIPISCING ELIT IT  </p>
+                                              <p class="djiant-block-4" style="padding-bottom: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                               </div>
+                                           </div>
+                                        
+                                         </div>  
+                        </div>
+                        <div class="col-md-7" style="padding-left: 0px;">
+                               <img src="assets/image/Entrepren.png"  style="width: 393.859px;height: 297.188px; display: block;" >
+                          
+                        </div>
+
+                            
+                     </div>
+                                          
+                                         
+             </div>   
+              </div>
+            </div>
+          </div>
+              <div class="row">
+                     <div class="djiant-col-md-9 " style="margin-top: 20px;margin-left: -7px;">
+                      <div class="row">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
+                          <div class="thumbnail disabled-network">
+                            <img src="assets/image/Finance.png"  style="width: 100%; height: 140px; display: block;">
+                            <div class="caption popupInfo-body ">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">FINANCE </h4>
+                                <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+                           </div>
+                      </div>
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                            <div class="thumbnail disabled-network">
+                              <img src="assets/image/HR.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body  ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">HUMAN RESSOURCES </h4>
+                                  <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+                             </div>
+                        </div>
+                       <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;">
+                            <div class="thumbnail disabled-network" id="TECHNOPARKS">
+                              <img src="assets/image/Incubators.png"  style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">INCUBATORS </h4>
+                                   <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+                             </div>
+                        </div>
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                            <div class="thumbnail disabled-network">
+                              <img src="assets/image/Logistics.png"  style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">LOGISTICS </h4>
+                                  <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+                             </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px; margin-right: 5px;width: 180px;    margin-top: 10px;">
+                            <div class="thumbnail disabled-network">
+                              <img src="assets/image/Marketing.png"  style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">MARKETING </h4>
+                                 <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+                             </div>
+                        </div>
+                     
+                      </div>
+                       
+                      </div>
+
+                      </div>
+              
+              
+
+      </ul>
+         </li> 
+         </ul>
+         <ul id="racine" >						
+          <li  style="padding:0px;" >
+          <div class="row racine1" style="margin: 0px;padding: 0px; ">
+            <div class="col-md-8 "style="margin: 0px 0px 0px 0px;padding: 0px;">
+              <span class="racine">Building</span>	
+            </div>
+          </div>
+          </li>
+          </ul>
+          <ul id="racine" >						
+            <li  style="padding:0px;" >
+            <div class="row racine1" style="margin: 0px;padding: 0px; ">
+              <div class="col-md-8 "style="margin: 0px 0px 0px 0px;padding: 0px;">
+                <span class="racine">Business sevices</span>	
+              </div>
+            </div>
+            </li>
+            </ul>
+          </div>
+            </div>
+    </div>
+           <!-- <img  src="assets/image/Vignette-reseau-Regional.png" alt="Regional Djiant" >-->
         </div>
 
     </div>
   </div>
+ 
 <div class="body" >
     <div id="map"></div>
 </div>
@@ -369,11 +1134,7 @@ if ($url =='djiant.com' ) {
                     
                     <button disabled style="border-radius: 3px !important;font-size: 14px;  " type="button" class="btn btn-default" id="voir_maquette">See the mock-up</button>
                   </div>
-                <!---------------------------------------MENU CENTRAL DEPUIS UN RESEAU POPUP START------------------------------------------------------------------------>
 
-
-
-                <!---------------------------------------MENU CENTRAL DEPUIS UN RESEAU POPUP END------------------------------------------------------------------------>
 
                   <div class="col-md-8 " style="padding-right: 0px;">
                                <div class="slideshow-container">
@@ -404,7 +1165,7 @@ if ($url =='djiant.com' ) {
                 </div>
                 
               </div>
-              <div id="Djiant-addserver-popup" class="modal" >
+<div id="Djiant-addserver-popup" class="modal" >
               <div class="modal-header ">
                   <button type="button" id="popupClose" class="close" data-dismiss="modal" aria-hidden="true"></button>
                   <div class=" d-flex line1" style="margin-left: 20px;"><img src="assets/new-icons/IconServerPlus.svg" class="icon mr-2"><h4>Create a community </h4></div>
@@ -517,7 +1278,7 @@ if ($url =='djiant.com' ) {
             </div>
 <div id="Djiant-about-popup" class="modal" >
               <div class="modal-header ">
-                  <button type="button" id="popupClose" class="close" data-dismiss="modal" ></button>
+                  <button type="button" id="popupClose" class="close" data-dismiss="modal" aria-hidden="true"></button>
                   <div class=" d-flex line1" style="margin-left: 20px;"><img src="assets/image/logo-djiant.svg" class="icon mr-2"><h4>About Djiant  </h4></div>
               </div>
                
@@ -548,7 +1309,2108 @@ if ($url =='djiant.com' ) {
         var map;
         var gray_icon =  'assets/markers/MarkerGris.svg' ;
         var blue_icon =  'assets/markers/MarkerBleu.svg' ;
-        var locations = <?php echo $result ?>;
+        var locations = [
+    [
+        "14592",
+        "Kentucky",
+        "37.8393332",
+        "-84.2700179",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14593",
+        "Louisiana",
+        "30.9842977",
+        "-91.9623327",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14597",
+        "Maine",
+        "45.253783",
+        "-69.4454689",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14598",
+        "Maryland",
+        "39.0457549",
+        "-76.6412712",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14599",
+        "Massachusetts",
+        "42.4072107",
+        "-71.3824374",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14600",
+        "Michigan",
+        "44.3148443",
+        "-85.6023643",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14601",
+        "Minnesota",
+        "46.729553",
+        "-94.6858998",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14602",
+        "Mississippi",
+        "32.3546679",
+        "-89.3985283",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14603",
+        "Missouri",
+        "37.9642529",
+        "-91.8318334",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14604",
+        "Montana",
+        "46.8796822",
+        "-110.3625658",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14605",
+        "Nebraska",
+        "41.4925374",
+        "-99.9018131",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14606",
+        "New Hampshire",
+        "43.1938516",
+        "-71.5723953",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14607",
+        "New Jersey",
+        "40.0583238",
+        "-74.4056612",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14608",
+        "New Mexico",
+        "34.5199402",
+        "-105.8700901",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14609",
+        "New York",
+        "40.7127753",
+        "-74.0059728",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14610",
+        "North Carolina",
+        "35.7595731",
+        "-79.0192997",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14611",
+        "North Dakota",
+        "47.5514926",
+        "-101.0020119",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14612",
+        "Ohio",
+        "40.4172871",
+        "-82.907123",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14613",
+        "Oklahoma",
+        "35.4675602",
+        "-97.5164276",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14614",
+        "Oregon",
+        "43.8041334",
+        "-120.5542012",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14615",
+        "Pennsylvania",
+        "41.2033216",
+        "-77.1945247",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14616",
+        "Rhode Island",
+        "41.5800945",
+        "-71.4774291",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14617",
+        "South Carolina",
+        "33.836081",
+        "-81.1637245",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14618",
+        "South Dakota",
+        "43.9695148",
+        "-99.9018131",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14619",
+        "Tennessee",
+        "35.5174913",
+        "-86.5804473",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14620",
+        "Texas",
+        "31.9685988",
+        "-99.9018131",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14621",
+        "Utah",
+        "39.3209801",
+        "-111.0937311",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14622",
+        "Vermont",
+        "44.5588028",
+        "-72.5778415",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "16926",
+        "Greater London",
+        "51.4309209",
+        "-0.0936496",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United Kingdom"
+    ],
+    [
+        "14623",
+        "Virginia",
+        "37.4315734",
+        "-78.6568942",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "16927",
+        "South East",
+        "51.7612056",
+        "-1.2464674",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United Kingdom"
+    ],
+    [
+        "14624",
+        "Washington",
+        "47.7510741",
+        "-120.7401385",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "16928",
+        "South West",
+        "50.2660471",
+        "-5.0527125",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United Kingdom"
+    ],
+    [
+        "14625",
+        "West Virginia",
+        "38.5976262",
+        "-80.4549026",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "16929",
+        "West Midlands",
+        "52.586973",
+        "-2.12882",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United Kingdom"
+    ],
+    [
+        "14626",
+        "Wisconsin",
+        "43.7844397",
+        "-88.7878678",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "16930",
+        "North West",
+        "53.4807593",
+        "-2.2426305",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United Kingdom"
+    ],
+    [
+        "14627",
+        "Wyoming",
+        "43.0759678",
+        "-107.2902839",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "16931",
+        "North East",
+        "54.7294099",
+        "-1.8811598",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United Kingdom"
+    ],
+    [
+        "16932",
+        "Yorkshire and the Humber",
+        "53.9062233",
+        "-1.0333573",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United Kingdom"
+    ],
+    [
+        "16933",
+        "East Midlands",
+        "53.100319",
+        "-0.9936306",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United Kingdom"
+    ],
+    [
+        "16934",
+        "East of England",
+        "51.5742447",
+        "0.4856781",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United Kingdom"
+    ],
+    [
+        "14638",
+        "Baden-W\u00fcrttemberg",
+        "48.6616037",
+        "9.3501336",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Germany"
+    ],
+    [
+        "14639",
+        "Bavaria",
+        "48.7904472",
+        "11.4978895",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Germany"
+    ],
+    [
+        "14641",
+        "Brandenburg",
+        "52.1313922",
+        "13.2162494",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Germany"
+    ],
+    [
+        "14642",
+        "Bremen",
+        "53.0792962",
+        "8.8016936",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Germany"
+    ],
+    [
+        "14643",
+        "Hamburg",
+        "53.5510846",
+        "9.9936819",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Germany"
+    ],
+    [
+        "14644",
+        "Hesse",
+        "50.6520515",
+        "9.1624376",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Germany"
+    ],
+    [
+        "14645",
+        "Mecklenburg-Western Pomerania",
+        "53.6126505",
+        "12.4295953",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Germany"
+    ],
+    [
+        "16959",
+        "\u00cele-de-France",
+        "48.8499198",
+        "2.6370411",
+        "",
+        "",
+        "",
+        "\u00cele-de-France",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "France"
+    ],
+    [
+        "16960",
+        "Normandy",
+        "48.8798704",
+        "0.1712529",
+        "",
+        "",
+        "",
+        "Normandy",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "France"
+    ],
+    [
+        "16961",
+        "New Aquitaine",
+        "45.7087182",
+        "0.626891",
+        "",
+        "",
+        "",
+        "New Aquitaine",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "France"
+    ],
+    [
+        "16962",
+        "Occitania",
+        "43.8927232",
+        "3.2827625",
+        "",
+        "",
+        "",
+        "Occitania",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "France"
+    ],
+    [
+        "16963",
+        "Pays de la Loire",
+        "47.7632836",
+        "-0.3299687",
+        "",
+        "",
+        "",
+        "Pays de la Loire",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "France"
+    ],
+    [
+        "16965",
+        "Madrid",
+        "40.4167754",
+        "-3.7037902",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "16968",
+        "Flanders",
+        "51.0108706",
+        "3.7264613",
+        "",
+        "",
+        "",
+        "Flanders",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Belgium"
+    ],
+    [
+        "16969",
+        "Bern",
+        "46.9479739",
+        "7.4474468",
+        "",
+        "",
+        "",
+        "Bern",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Switzerland"
+    ],
+    [
+        "16970",
+        "Geneva",
+        "46.2043907",
+        "6.1431577",
+        "",
+        "",
+        "",
+        "Geneva",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Switzerland"
+    ],
+    [
+        "16972",
+        "Oran",
+        "35.6987388",
+        "-0.6349319",
+        "",
+        "",
+        "",
+        "Oran",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Algeria"
+    ],
+    [
+        "16973",
+        "Tunis",
+        "36.8064948",
+        "10.1815316",
+        "",
+        "",
+        "",
+        "Tunis",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Tunisia"
+    ],
+    [
+        "16974",
+        "Sousse",
+        "35.8245029",
+        "10.634584",
+        "",
+        "",
+        "",
+        "Sousse",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Tunisia"
+    ],
+    [
+        "16976",
+        "Rabat",
+        "33.9715904",
+        "-6.8498129",
+        "",
+        "",
+        "",
+        "Rabat",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Morocco"
+    ],
+    [
+        "16977",
+        "Dubai",
+        "25.2048493",
+        "55.2707828",
+        "",
+        "",
+        "",
+        "Dubai",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United Arab Emirates"
+    ],
+    [
+        "16979",
+        "Ontario",
+        "51.253775",
+        "-85.323214",
+        "",
+        "",
+        "",
+        "Ontario",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Canada"
+    ],
+    [
+        "16980",
+        "Pondicherry",
+        "11.9415915",
+        "79.8083133",
+        "",
+        "",
+        "",
+        "Pondicherry",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "India"
+    ],
+    [
+        "16981",
+        "Dublin",
+        "53.3498053",
+        "-6.2603097",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Ireland"
+    ],
+    [
+        "16982",
+        "Cork",
+        "51.8985143",
+        "-8.4756035",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Ireland"
+    ],
+    [
+        "13911",
+        "Nevada",
+        "38.8026097",
+        "-116.419389",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "16983",
+        "Lisbonne",
+        "38.7222524",
+        "-9.1393366",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Portugal"
+    ],
+    [
+        "16984",
+        "Porto",
+        "41.1579438",
+        "-8.6291053",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Portugal"
+    ],
+    [
+        "14521",
+        "Andalucia",
+        "37.5442706",
+        "-4.7277528",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14522",
+        "Aragon",
+        "41.5976275",
+        "-0.9056623",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14523",
+        "Asturias",
+        "43.3613953",
+        "-5.8593267",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14524",
+        "Balearic Islands",
+        "39.3587759",
+        "2.7356328",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14525",
+        "Canary Islands",
+        "28.2915637",
+        "-16.6291304",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14526",
+        "Cantabria",
+        "43.1828396",
+        "-3.9878427",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14527",
+        "Castilla Y L\u00e9on",
+        "41.8356821",
+        "-4.3976357",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14528",
+        "Castilla La Mancha",
+        "39.2795607",
+        "-3.097702",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14529",
+        "Catalonia",
+        "41.5911589",
+        "1.5208624",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14530",
+        "Extremadura",
+        "39.4937392",
+        "-6.0679194",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14531",
+        "Galicia",
+        "42.5750554",
+        "-8.1338558",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14533",
+        "Murcia",
+        "38.1398141",
+        "-1.366216",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14534",
+        "Navarra",
+        "42.6953909",
+        "-1.6760691",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14535",
+        "Basque Country",
+        "43.2449128",
+        "-1.2891036",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14536",
+        "La Rioja",
+        "42.2870733",
+        "-2.539603",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14537",
+        "Valencia",
+        "39.4840108",
+        "-0.7532809",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14538",
+        "Ceuta",
+        "35.8893874",
+        "-5.3213455",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14539",
+        "Melilla",
+        "35.2922775",
+        "-2.9380973",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Spain"
+    ],
+    [
+        "14540",
+        "Nunavut",
+        "70.2997711",
+        "-83.107577",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Canada"
+    ],
+    [
+        "14541",
+        "Northwest Territories",
+        "64.8255441",
+        "-124.8457334",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Canada"
+    ],
+    [
+        "14542",
+        "Yukon",
+        "64.2823274",
+        "-135",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Canada"
+    ],
+    [
+        "14545",
+        "Nova Scotia",
+        "44.6819866",
+        "-63.744311",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Canada"
+    ],
+    [
+        "14546",
+        "New Brunswick",
+        "46.5653163",
+        "-66.4619164",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Canada"
+    ],
+    [
+        "14547",
+        "Manitoba",
+        "53.7608608",
+        "-98.8138762",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Canada"
+    ],
+    [
+        "14548",
+        "British Columbia",
+        "53.7266683",
+        "-127.6476205",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Canada"
+    ],
+    [
+        "14549",
+        "Prince Edward Island",
+        "46.510712",
+        "-63.4168136",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Canada"
+    ],
+    [
+        "14550",
+        "Saskatchewan",
+        "52.9399159",
+        "-106.4508639",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Canada"
+    ],
+    [
+        "14551",
+        "Alberta",
+        "53.9332706",
+        "-116.5765035",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Canada"
+    ],
+    [
+        "14552",
+        "Newfoundland and Labrador",
+        "53.1355091",
+        "-57.6604364",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Canada"
+    ],
+    [
+        "14553",
+        "Abruzzo",
+        "42.1920119",
+        "13.7289167",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14554",
+        "Basilicata",
+        "40.6430766",
+        "15.9699878",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14555",
+        "Calabria",
+        "39.3087714",
+        "16.3463791",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14556",
+        "Alabama",
+        "32.3182314",
+        "-86.902298",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14557",
+        "Alaska",
+        "64.2008413",
+        "-149.4936733",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14558",
+        "Arizona",
+        "34.0489281",
+        "-111.0937311",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14559",
+        "Campania",
+        "40.6670887",
+        "15.1068113",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14560",
+        "Arkansas",
+        "35.20105",
+        "-91.8318334",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14561",
+        "Emilia-Romagna",
+        "44.5967607",
+        "11.2186396",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14562",
+        "California",
+        "36.778261",
+        "-119.4179324",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14563",
+        "Friuli-Venezia Giulia",
+        "46.2259177",
+        "13.1033646",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14564",
+        "Latium (Lazio)",
+        "41.6552418",
+        "12.989615",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14565",
+        "Colorado",
+        "39.5500507",
+        "-105.7820674",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14566",
+        "Connecticut",
+        "41.6032207",
+        "-73.087749",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14567",
+        "Delaware",
+        "38.9108325",
+        "-75.5276699",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14568",
+        "Liguria",
+        "44.3167917",
+        "8.3964938",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14569",
+        "Lombardia",
+        "45.4790671",
+        "9.8452433",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14570",
+        "Marche",
+        "43.5058744",
+        "12.989615",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14571",
+        "Molise",
+        "41.6738865",
+        "14.7520939",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14572",
+        "Piemonte",
+        "45.0522366",
+        "7.5153885",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "13805",
+        "Illinois",
+        "41.8848614",
+        "-87.6224564",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14573",
+        "Puglia (Apulia)",
+        "40.7928393",
+        "17.1011931",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14574",
+        "Sardegna (Sardinia)",
+        "40.1208752",
+        "9.0128926",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14575",
+        "Sicialia (Sicily)",
+        "37.5999938",
+        "14.0153557",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14576",
+        "Toscana (Tuscany)",
+        "43.7710513",
+        "11.2486208",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14577",
+        "Trentino-Alto Adige(Trentino-South Tyrol ) *",
+        "46.4336662",
+        "11.1693296",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14578",
+        "Umbria",
+        "42.938004",
+        "12.6216211",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14579",
+        "Valle d\\'Aosta(Aosta Valley )",
+        "45.7358041",
+        "7.3193276",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14580",
+        "Veneto",
+        "45.4414662",
+        "12.3152595",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "Italy"
+    ],
+    [
+        "14581",
+        "Florida",
+        "27.6648274",
+        "-81.5157535",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14582",
+        "Georgia",
+        "32.1656221",
+        "-82.9000751",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14583",
+        "Hawaii",
+        "19.8967662",
+        "-155.5827818",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14584",
+        "Idaho",
+        "44.0682019",
+        "-114.7420408",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14586",
+        "Indiana",
+        "40.2671941",
+        "-86.1349019",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14588",
+        "Iowa",
+        "41.8780025",
+        "-93.097702",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "14590",
+        "Kansas",
+        "39.011902",
+        "-98.4842465",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "0",
+        "United States of America"
+    ],
+    [
+        "16964",
+        "Provence-Alpes-C\u00f4te d'Azur",
+        "43.9351691",
+        "6.0679194",
+        "",
+        "",
+        "",
+        "Provence-Alpes-C\u00f4te d\\'Azur",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "1",
+        "France"
+    ],
+    [
+        "16967",
+        "Wallonia",
+        "50.4175637",
+        "4.4510066",
+        "",
+        "",
+        "",
+        "Wallonia",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "1",
+        "Belgium"
+    ],
+    [
+        "16971",
+        "Algiers",
+        "36.753768",
+        "3.0587561",
+        "",
+        "",
+        "",
+        "Algiers",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "1",
+        "Algeria"
+    ],
+    [
+        "16975",
+        "Casablanca",
+        "33.5731104",
+        "-7.5898434",
+        "",
+        "",
+        "",
+        "Casablanca",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "1",
+        "Morocco"
+    ],
+    [
+        "16978",
+        "Quebec",
+        "52.9399159",
+        "-73.5491361",
+        "",
+        "",
+        "",
+        "Quebec",
+        "",
+        "assets\/gris-window.png",
+        "https:\/\/info.djiant.com\/",
+        "1",
+        "Canada"
+    ]
+];
         var myOptions = {
           mapTypeControl: false,
           streetViewControl: false,
@@ -815,9 +3677,17 @@ if ($url =='djiant.com' ) {
   });
 
   $(document).on("click",".body",function(){
-    $('.popupInfo').hide();
+  //  $('.popupInfo').hide();
     $('#popupInfo-li').removeClass('selected-menu');
     $('.side-Menu').removeClass('selected-menu');
+
+
+});
+$(document).on("click","#reseau-button",function(){
+ 
+    $('.popupInfo').hide();
+    $('#reseau-container').css("display","block");
+   
 
 
 });
@@ -851,11 +3721,11 @@ if ($url =='djiant.com' ) {
 
 </script>
 <script>
-// $ optional alias to jQuery noConflict()
-var $ = jQuery.noConflict();
+// $j optional alias to jQuery noConflict()
+var $j = jQuery.noConflict();
 
-$(document).ready(function() {
-	$('[data-toggle="popover"]').popover();
+$j(document).ready(function() {
+	$j('[data-toggle="popover"]').popover();
 });
 </script>
 <script>
