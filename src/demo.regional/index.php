@@ -33,7 +33,7 @@ if ($url =='djiant.com' ) {
           <li  class="mt-2 ml-2"><img  width="22px" src="assets/new-icons/SearchTree.svg" alt="" class=" disable"></li>
           <li  class="mt-2 ml-2 "   data-target="#Djiant-racine-popup" data-toggle=""><img id="popupRacine-btn"   width="22px" src="assets/new-icons/MenuDomains.svg" alt=""  class=" disable"></li>
           <li   class="mt-2 ml-2 " data-target="#Djiant-addserver-popup" data-toggle=""><img width="22px" src="assets/new-icons/IconServerPlus.svg" alt="" class=" disable"></li>
-          <li  class="mt-2 ml-2 " id="reseau-button" ><img  width="22px" src="assets/new-icons/AboutDjiant.svg" alt="" class=" disable"></li>
+          <li  class="mt-2 ml-2 " id="reseau-button" ><img  width="22px" src="assets/new-icons/AboutDjiant.svg" alt=""></li>
           
 
         </ul>
