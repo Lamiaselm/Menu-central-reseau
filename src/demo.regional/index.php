@@ -150,7 +150,7 @@ if ($url =='djiant.com' ) {
               <div class="row">
                      <div class="djiant-col-md-9 " style="margin-top: 20px;margin-left: -7px;">
                       <div class="row">
-                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;height: 315px;">
                           <div class="thumbnail disabled-network">
                                                 <img src="assets/image/CCI-France-International.png"  style="width: 100%; height: 140px; display: block;">
                                                 <div class="caption popupInfo-body">
@@ -164,7 +164,7 @@ if ($url =='djiant.com' ) {
                                                </div>
                            </div>
                       </div>
-                       <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;">
+                       <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;height: 315px;">
                             <div class="thumbnail active-network" id="TECHNOPARKS">
                                                   <img src="assets/image/Technoparks.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                                                   <div class="caption popupInfo-body ">
@@ -190,7 +190,7 @@ if ($url =='djiant.com' ) {
                                                  </div>
                              </div>
                         </div>
-                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
                           <div class="thumbnail disabled-network" id="Belgian-Chambers">
                             <img src="assets/image/Belgian-Chambers.png"  style="width: 100%; height: 140px; display: block;">
                             <div class="caption popupInfo-body">
@@ -207,7 +207,7 @@ if ($url =='djiant.com' ) {
                            </div>
                              </div>
                         </div>
-                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
                           <div class="thumbnail disabled-network " id="Clusters">
                             <img src="assets/image/Clusters.png"  style="width: 100%; height: 140px; display: block;" >
                             <div class="caption popupInfo-body">
@@ -228,7 +228,7 @@ if ($url =='djiant.com' ) {
                       </div>
                       <div class="row">
                     
-                        <div class="djiant-col-md-2 " style="margin-left: -16px;width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px;width: 180px;    margin-top: 10px;height: 315px;">
                           <div class="thumbnail disabled-network" id="DevAgencies">
                             <img src="assets/image/DevAgencies.png"  style="width: 100%; height: 140px; display: block;" >
                             <div class="caption popupInfo-body">
@@ -245,7 +245,7 @@ if ($url =='djiant.com' ) {
                            </div>
                              </div>
                         </div>
-                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
                           <div class="thumbnail disabled-network " id="Clusters">
                             <img src="assets/image/CCI.png"  style="width: 100%; height: 140px; display: block;" >
                                                                       <div class="caption popupInfo-body">
@@ -264,7 +264,7 @@ if ($url =='djiant.com' ) {
                                                                      </div>
                              </div>
                         </div>
-                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
                           <div class="thumbnail disabled-network " id="Clusters">
                             <img src="assets/image/Confederations.png"  style="width: 100%; height: 140px; display: block;" >
                             <div class="caption popupInfo-body">
@@ -338,7 +338,7 @@ if ($url =='djiant.com' ) {
               <div class="row">
                      <div class="djiant-col-md-9 " style="margin-top: 20px;margin-left: -7px;">
                       <div class="row">
-                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;height: 315px;">
                           <div class="thumbnail disabled-network">
                             <img src="assets/image/Cloud.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                             <div class="caption popupInfo-body ">
@@ -356,7 +356,7 @@ if ($url =='djiant.com' ) {
                            </div>
                            </div>
                       </div>
-                        <div class="djiant-col-md-2 " style=" width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style=" width: 180px;    margin-top: 10px;height: 315px;">
                             <div class="thumbnail disabled-network">
                               <img src="assets/image/Data.png"  style="width: 100%; height: 140px; display: block;" >
                               <div class="caption popupInfo-body ">
@@ -374,7 +374,7 @@ if ($url =='djiant.com' ) {
                              </div>
                              </div>
                         </div>
-                       <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;">
+                       <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;height: 315px;">
                             <div class="thumbnail disabled-network" id="TECHNOPARKS">
                               <img src="assets/image/Digital ARts.png"  style="width: 100%; height: 140px; display: block;" >
                               <div class="caption popupInfo-body ">
@@ -392,7 +392,7 @@ if ($url =='djiant.com' ) {
                              </div>
                              </div>
                         </div>
-                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
                             <div class="thumbnail disabled-network">
                               <img src="assets/image/ITHealth.png"  style="width: 100%; height: 140px; display: block;" >
                               <div class="caption popupInfo-body ">
@@ -412,7 +412,7 @@ if ($url =='djiant.com' ) {
                         </div>
                       </div>
                       <div class="row">
-                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;height: 315px;">
                             <div class="thumbnail disabled-network">
                               <img src="assets/image/IT Retail.png"  style="width: 100%; height: 140px; display: block;">
                               <div class="caption popupInfo-body ">
@@ -430,9 +430,9 @@ if ($url =='djiant.com' ) {
                              </div>
                              </div>
                         </div>
-                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
                           <div class="thumbnail disabled-network">
-                            <img src="assets/image/60x60.png"  style="width: 100%; height: 140px; display: block;">
+                            <img src="assets/image/LINUX.jpg"  style="width: 100%; height: 140px; display: block;">
                                                                       <div class="caption popupInfo-body ">
                                                                        <div class="row">
                                                                          <div class="col-md-12">
@@ -448,7 +448,7 @@ if ($url =='djiant.com' ) {
                                                                      </div>
                            </div>
                       </div>
-                      <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                      <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
                         <div class="thumbnail disabled-network">
                           <img src="assets/image/Coding.png"  style="width: 100%; height: 140px; display: block;" >
                           <div class="caption popupInfo-body ">
@@ -466,7 +466,7 @@ if ($url =='djiant.com' ) {
                          </div>
                          </div>
                     </div>
-                    <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                    <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
                       <div class="thumbnail disabled-network">
                         <img src="assets/image/Cybersecu.png"  style="width: 100%; height: 140px; display: block;">
                         <div class="caption popupInfo-body ">
@@ -487,7 +487,7 @@ if ($url =='djiant.com' ) {
                        
                          </div>
                          <div class="row">
-                          <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
+                          <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;height: 315px;">
                            <div class="thumbnail disabled-network">
                              <img src="assets/image/Telecom.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                              <div class="caption popupInfo-body ">
@@ -562,7 +562,7 @@ if ($url =='djiant.com' ) {
               <div class="row">
                      <div class="djiant-col-md-9 " style="margin-top: 20px;margin-left: -7px;">
                       <div class="row">
-                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;height: 315px;">
                           <div class="thumbnail disabled-network">
                             <img src="assets/image/Business Schools.png"  style="width: 100%; height: 140px; display: block;">
                             <div class="caption popupInfo-body ">
@@ -580,7 +580,7 @@ if ($url =='djiant.com' ) {
                            </div>
                            </div>
                       </div>
-                        <div class="djiant-col-md-2 " style=" width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style=" width: 180px;    margin-top: 10px;height: 315px;">
                             <div class="thumbnail disabled-network">
                               <img src="assets/image/Exec Training.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                               <div class="caption popupInfo-body ">
@@ -598,7 +598,7 @@ if ($url =='djiant.com' ) {
                              </div>
                              </div>
                         </div>
-                       <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;">
+                       <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;height: 315px;">
                             <div class="thumbnail disabled-network" id="TECHNOPARKS">
                               <img src="assets/image/Research.png"  style="width: 100%; height: 140px; display: block;" >
                               <div class="caption popupInfo-body ">
@@ -616,7 +616,7 @@ if ($url =='djiant.com' ) {
                              </div>
                              </div>
                         </div>
-                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
                             <div class="thumbnail disabled-network">
                               <img src="assets/image/Universities.png"  style="width: 100%; height: 140px; display: block;" >
                               <div class="caption popupInfo-body ">
@@ -689,7 +689,7 @@ if ($url =='djiant.com' ) {
               <div class="row">
                      <div class="djiant-col-md-9 " style="margin-top: 20px;margin-left: -7px;">
                       <div class="row">
-                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;height: 315px;">
                           <div class="thumbnail disabled-network">
                             <img src="assets/image/Finance.png"  style="width: 100%; height: 140px; display: block;">
                             <div class="caption popupInfo-body ">
@@ -707,7 +707,7 @@ if ($url =='djiant.com' ) {
                            </div>
                            </div>
                       </div>
-                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
                             <div class="thumbnail disabled-network">
                               <img src="assets/image/HR.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                               <div class="caption popupInfo-body  ">
@@ -725,7 +725,7 @@ if ($url =='djiant.com' ) {
                              </div>
                              </div>
                         </div>
-                       <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;">
+                       <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;height: 315px;">
                             <div class="thumbnail disabled-network" id="TECHNOPARKS">
                               <img src="assets/image/Incubators.png"  style="width: 100%; height: 140px; display: block;" >
                               <div class="caption popupInfo-body ">
@@ -743,7 +743,7 @@ if ($url =='djiant.com' ) {
                              </div>
                              </div>
                         </div>
-                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
                             <div class="thumbnail disabled-network">
                               <img src="assets/image/Logistics.png"  style="width: 100%; height: 140px; display: block;" >
                               <div class="caption popupInfo-body ">
@@ -763,7 +763,7 @@ if ($url =='djiant.com' ) {
                         </div>
                       </div>
                       <div class="row">
-                        <div class="djiant-col-md-2 " style="margin-left: -16px; margin-right: 5px;width: 180px;    margin-top: 10px;">
+                        <div class="djiant-col-md-2 " style="margin-left: -16px; margin-right: 5px;width: 180px;    margin-top: 10px;height: 315px;">
                             <div class="thumbnail disabled-network">
                               <img src="assets/image/Marketing.png"  style="width: 100%; height: 140px; display: block;" >
                               <div class="caption popupInfo-body ">

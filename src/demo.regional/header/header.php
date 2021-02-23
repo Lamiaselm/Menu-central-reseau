@@ -139,9 +139,7 @@
   background-color: #f3f3f3;
   border-radius: 2px !important;
 }
-.disabled-network  {
-  opacity: 0.3;
-}
+
 
 .djiant-block {
     font-family: calibri;
@@ -303,9 +301,7 @@ a.Djiant-racine-thumbnail:focus {
   transition: background-color 0.6s ease;
 }
 
-.disabled-network  {
-  opacity: 0.5;
-}
+
 .active-network:hover {
    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 22%);
    cursor: pointer;
@@ -322,9 +318,12 @@ a.Djiant-racine-thumbnail:focus {
 }
 .active-network{
 border: 0.1px solid #ddddddab;
+height:100%;
 }
 .disabled-network{
-border: 0.1px solid #ddddddab;
+  opacity:0.4;
+  height:100%;
+  border: 0.1px solid #ddddddab;
 }
 .disabled-network  img {
   opacity: 0.4;
