@@ -152,7 +152,7 @@ if ($url =='djiant.com' ) {
                       <div class="row">
                         <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;">
                           <div class="thumbnail disabled-network">
-                                                <img src="assets/image/60x60.png"  style="width: 100%; height: 140px; display: block;">
+                                                <img src="assets/image/CCI-France-International.png"  style="width: 100%; height: 140px; display: block;">
                                                 <div class="caption popupInfo-body">
                                                  <div class="row">
                                                    <div class="col-md-12">
