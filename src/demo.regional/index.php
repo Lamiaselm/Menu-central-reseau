@@ -66,7 +66,7 @@ if ($url =='djiant.com' ) {
        
           <!-- BEGIN HEADER INNER -->
           <div class="page-header-inner" style="padding-top: 10px;">
-          <span id="close">x</span>
+          <button id="close">Close</button>
             <!-- BEGIN LOGO -->
             <div class="page-logo">
               <img id="djiant" style="margin-right: 6px; margin-top: 2px" src="assets/image/logo-djiant.svg" width="22px"> 
@@ -89,11 +89,11 @@ if ($url =='djiant.com' ) {
         <div class="tabbable-line " style="    padding-left: 0px;">
                       
                         <ul class="nav nav-tabs ">
-                          <li style="margin-bottom:-11px;">
+                          <li style="margin-bottom:-21px;">
                             <a id="tab_1" data-toggle="tab">
                             <h4 style="margin:0px; font-weight: 400;" >New communities</h4> </a>
                           </li>
-                          <li style="margin-bottom:-11px;">
+                          <li style="margin-bottom:-21px;">
                             <a id="tab_2" data-toggle="tab">
                           <h4 style="margin:0px; font-weight: 400;" >All communities</h4>	 </a>
                           </li>

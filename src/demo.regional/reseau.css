@@ -20,11 +20,19 @@
     border-radius: 1px !important;
 }
 #close{
+    margin-right: 10px;
     float: right;
-    padding-right: 20px;
-    font-size: 20px;
-    font-family: 'CalibriRegular';
-    font-weight: 500;
+    padding: 6px 24px;
+    color: white;
+    font-weight: 100;
+    border: none;
+    font-family: 'calibri',sans-serif;
+    outline: none;
+    border-radius: 2px !important;
+    font-size: 13px;
+    background-color: #949493;
+}
+
 }
 .the-web {
     font-weight: 100;
