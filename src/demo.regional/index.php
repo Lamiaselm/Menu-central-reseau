@@ -106,7 +106,7 @@ if ($url =='djiant.com' ) {
         <!-- END HEADER -->
 
         <div class="scrollable" style="max-height: 530px; direction: rtl;  ">
-          <div class="container" style="direction: ltr; ">
+          <div class="container" style="direction: ltr; display:none;">
 
           
         <ul id="racine" >	
@@ -121,44 +121,6 @@ if ($url =='djiant.com' ) {
         
           <ul class="domaine active" style="margin-left: 25px;">
             <div class="djiant-col-md-9 djiant-network" id="network_1">
-              <div class="row" >
-                  <div class="djiant-col-md-8 " style="margin-top: 10px;margin-left:-55px;">
-                  <div class="thumbnail disabled-network" style="border: none;">
-                     <div class="row" style="margin-left: 17px; ">
-                        <div class="col-md-4" style="padding-left: 10px; padding-top: 8px;    border: solid 1px #ddd;">
-                           <div class="caption popupInfo-body" style="    padding-bottom: 0px; ">
-                                           <div class="row">
-                                             <div class="col-md-12">
-                                              <p style="font-size: 14px; color: #008DD2; margin-bottom: 3px;">Main network</p>
-                                              <h4 class="djiant-title" style="font-size: 18px; font-family: arial black;">REGIONAL ECONOMIES </h4>
-                                              <p class="decouvrez-djiant" style="font-size: 15px;line-height: 21px;"> LOCAL ECONOMY. NATIVE COMMUNITY  </p>
-                                              <p class="djiant-block-4" style="padding-bottom: 30px;">A Djiant Network of regional business communities in partnership with local newspapers.</p>
-                                               </div>
-                                           </div>
-                                           <div class="row">
-                                                   <div class="col-md-3">
-                                                     <h3 style="font-size: 18px;margin-top: 10px">20</h3>
-                                                     <p>Covered countries   </p>
-                                                   </div>
-                                                  
-                                                   <div class="col-md-3">
-                                                     <h3 style="font-size: 18px;margin-top: 10px">251</h3>
-                                                     <p>Communties    </p>
-                                                   </div>
-                                                   
-                                                 </div>
-                                         </div>  
-                        </div>
-                        <div class="col-md-7" style="padding-left: 0px;">
-                               <img src="assets/image/Regional.png"  style="width: 393.859px;height: 297.188px; display: block;" >
-                        </div>      
-                     </div>
-                                          
-                                         
-             </div>   
-              </div>
-            </div>
-          </div>
               <div class="row">
                      <div class="djiant-col-md-9 " style="margin-top: 20px;margin-left: -7px;">
                       <div class="row">
@@ -3687,6 +3649,12 @@ if ($url =='djiant.com' ) {
    if(currentZoomLevel != 0){
      map.setZoom(currentZoomLevel - 1);}     
   });
+  $(document).on("click","#tab_1",function(){
+    $(".portlet-light").hide();
+	  $('container').show();
+
+    
+});
 
   $(document).on("click",".body",function(){
     $('.popupInfo').hide();
