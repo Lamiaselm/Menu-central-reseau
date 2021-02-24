@@ -94,6 +94,7 @@ var Layout = function () {
         }
 
         el.parents('li').each(function () {
+            
             $(this).addClass('active');
             $(this).find('> a > span.arrow').addClass('open');
 

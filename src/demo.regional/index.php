@@ -654,6 +654,7 @@ if ($url =='djiant.com' ) {
               	</div>
               </div>
             </div>
+            <script src="assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
 <script>
 	        /**
          * Create new map
@@ -3028,16 +3029,24 @@ if ($url =='djiant.com' ) {
    if(currentZoomLevel != 0){
      map.setZoom(currentZoomLevel - 1);}     
   });
-  $(document).on("click","#tab_1",function(){
-    $(".portlet-light").hide();
+  $(document).on("click","li",function(){
+    if($(this).hasClass('active'))
+    {
+      $(this).removeClass('active'); 
+    }
+   
     $(this).addClass('active');
-	  $('#network_4').show();
-    $(".page-header.navbar").css("background-color", "#fff");
-    $(".page-container").css("background-color", "#fff");
-    $(".page-container").css('background-image', 'none');
-    $('.nav-tabs').next('li .active').find('a').css("background-color", "#fff");
 
-    
+
+});
+  $(document).on("click","#tab_1",function(){
+
+	  $('#network_4').show();
+});
+$(document).on("click","#tab_2",function(){
+
+$('#network_4').hide();
+$("#network_5").show();
 });
 
   $(document).on("click",".body",function(){
