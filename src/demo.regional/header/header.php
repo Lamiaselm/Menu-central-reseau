@@ -7414,7 +7414,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-family: CalibriRegular, serif; 
+  font-family: 'calibri', sans-serif; 
 }
 
 @font-face {

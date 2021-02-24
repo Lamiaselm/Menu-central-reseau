@@ -62,7 +62,7 @@ if ($url =='djiant.com' ) {
         <div class="reseau-container">
      
         <!-- BEGIN HEADER -->
-        <div class="page-header -i navbar navbar-fixed-top" style="border: none;">
+        <div class="page-header -i navbar navbar-fixed-top" style="border: none; font-family:calibri;">
        
           <!-- BEGIN HEADER INNER -->
           <div class="page-header-inner" style="padding-top: 10px;">
@@ -71,7 +71,7 @@ if ($url =='djiant.com' ) {
             <div class="page-logo">
               <img id="djiant" style="margin-right: 6px; margin-top: 2px" src="assets/image/logo-djiant.svg" width="22px"> 
         
-              <span  >    Djiant <span class=" note the-web">Platform for BTOB Communities </span> </span> 
+              <span style="font-size:17px;"  >    Djiant <span class=" note the-web">Platform for BTOB Communities </span> </span> 
               
                
               <div class="menu-toggler sidebar-toggler hide">
@@ -83,17 +83,17 @@ if ($url =='djiant.com' ) {
           </div>
           <!-- END HEADER INNER -->
         </div>
-        <div class="page-header -i navbar navbar-fixed-top" id="navbar-fixed-top" style="margin-top: -10px;margin-left: -15px;;">
+        <div class="page-header -i navbar navbar-fixed-top" id="navbar-fixed-top" style="margin-top: -10px;">
           <!-- BEGIN HEADER INNER -->
           <div class="page-header-inner">
         <div class="tabbable-line " style="    padding-left: 0px;">
                       
                         <ul class="nav nav-tabs ">
-                          <li>
+                          <li style="margin-bottom:-11px;">
                             <a id="tab_1" data-toggle="tab">
                             <h4 style="margin:0px; font-weight: 400;" >New communities</h4> </a>
                           </li>
-                          <li >
+                          <li style="margin-bottom:-11px;">
                             <a id="tab_2" data-toggle="tab">
                           <h4 style="margin:0px; font-weight: 400;" >All communities</h4>	 </a>
                           </li>

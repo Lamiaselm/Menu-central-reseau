@@ -72,11 +72,11 @@ Page Header
 .page-header.navbar .page-logo {
   float: left;
   display: block;
-  width: 267px;
+  width: 280px;
   height: 41px;
   padding-left: 0px;
   padding-right: 20px;
-  padding-top: 9px;
+  margin-left: 18px;
   font-size: 14px;
   font-weight: 700;
 }

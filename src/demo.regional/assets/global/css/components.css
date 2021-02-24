@@ -6345,7 +6345,8 @@ Custom tabs
   margin: 0px;
 }
 .tabbable-line > .nav-tabs > li {
-  margin-right: 2px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 .tabbable-line > .nav-tabs > li > a {
   border: 0;
