@@ -71,7 +71,7 @@ if ($url =='djiant.com' ) {
             <div class="page-logo">
               <img id="djiant" style="margin-right: 6px; margin-top: 2px" src="assets/image/logo-djiant.svg" width="22px"> 
         
-               <span  >  Djiant </span> 
+              <span  >    Djiant <span class=" note the-web">Platform for BTOB Communities </span> </span> 
               
                
               <div class="menu-toggler sidebar-toggler hide">
@@ -83,7 +83,7 @@ if ($url =='djiant.com' ) {
           </div>
           <!-- END HEADER INNER -->
         </div>
-        <div class="page-header -i navbar navbar-fixed-top" id="navbar-fixed-top" style="margin-top: -10px; border: none;margin-left: -15px;;">
+        <div class="page-header -i navbar navbar-fixed-top" id="navbar-fixed-top" style="margin-top: -10px;margin-left: -15px;;">
           <!-- BEGIN HEADER INNER -->
           <div class="page-header-inner">
         <div class="tabbable-line " style="    padding-left: 0px;">
@@ -91,11 +91,11 @@ if ($url =='djiant.com' ) {
                         <ul class="nav nav-tabs ">
                           <li>
                             <a id="tab_1" data-toggle="tab">
-                            <h4 style="margin:0px; font-weight: 400;" >Navigate</h4> </a>
+                            <h4 style="margin:0px; font-weight: 400;" >New communities</h4> </a>
                           </li>
                           <li >
                             <a id="tab_2" data-toggle="tab">
-                          <h4 style="margin:0px; font-weight: 400;" >More info...</h4>	 </a>
+                          <h4 style="margin:0px; font-weight: 400;" >All communities</h4>	 </a>
                           </li>
                           
                         </ul>
