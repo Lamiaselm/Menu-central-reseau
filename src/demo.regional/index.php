@@ -89,11 +89,11 @@ if ($url =='djiant.com' ) {
         <div class="tabbable-line " style="    padding-left: 0px;">
                       
                         <ul class="nav nav-tabs ">
-                          <li style="margin-bottom:-21px;">
+                          <li class =""style="margin-bottom:-21px;">
                             <a id="tab_1" data-toggle="tab">
                             <h4 style="margin:0px; font-weight: 400;" >New communities</h4> </a>
                           </li>
-                          <li style="margin-bottom:-21px;">
+                          <li class ="" style="margin-bottom:-21px;">
                             <a id="tab_2" data-toggle="tab">
                           <h4 style="margin:0px; font-weight: 400;" >All communities</h4>	 </a>
                           </li>
@@ -109,7 +109,7 @@ if ($url =='djiant.com' ) {
          
           
           <div class="row" id="network_4" style="display:none;">
-          <div class="djiant-col-md-2"  style="margin-left: 5px; margin-right: 5px;" >
+          <div class="djiant-col-md-2"  style="margin-left: 44px; margin-right: 5px;" >
                                                 <div class="thumbnail active-network" id="TECHNOPARKS">
                                                                       <img src="assets/image/Technoparks.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                                                                       <div class="caption popupInfo-body ">
@@ -3030,6 +3030,7 @@ if ($url =='djiant.com' ) {
   });
   $(document).on("click","#tab_1",function(){
     $(".portlet-light").hide();
+    $(this).addClass('active');
 	  $('#network_4').show();
     $(".page-header.navbar").css("background-color", "#fff");
     $(".page-container").css("background-color", "#fff");
