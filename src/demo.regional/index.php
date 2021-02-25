@@ -105,28 +105,28 @@ if ($url =='djiant.com' ) {
         </div>
         <!-- END HEADER -->
 
-        <div class="scrollable" style="max-height: 530px; direction: ltr;  ">
+      
          
           
           <div class="row" id="network_4" style="display:none;">
-          <div class="djiant-col-md-2"  style="margin-left: 44px; margin-right: 5px;" >
+                                         <div class="djiant-col-md-2"  style="margin-left: 44px; margin-right: 5px;" >
                                                 <div class="thumbnail active-network" id="TECHNOPARKS">
-                                                                      <img src="assets/image/Technoparks.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                                                                      <img src="assets/image/60x60.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                                                                       <div class="caption popupInfo-body ">
                                                                        <div class="row">
                                                                          <div class="col-md-12">
-                                                                           <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">TECHNOPARKS </h4>
-                                                                           <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> Places where tomorow’s economy is invented.   </p>
+                                                                           <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">REGIONAL ECONOMIES</h4>
+                                                                           <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> A Djiant Network of regional business communities in partnership with local newspapers. </p>
                                                                            </div>
                                                                        </div>
                                                                        <div class="row" style="margin-top: 63px;">
                                                                                <div class="col-md-4">
-                                                                                 <h4 style="margin-bottom: 0px;">71</h4>
+                                                                                 <h4 style="margin-bottom: 0px;">20</h4>
                                                                                  <p style="margin-top: 0px;" > Countries   </p>
                                                                                </div>
                                                                               
                                                                                <div class="col-md-4">
-                                                                                 <h4 style="margin-bottom: 0px;">900</h4>
+                                                                                 <h4 style="margin-bottom: 0px;">251</h4>
                                                                                  <p style="margin-top: 0px;">Communities    </p>
                                                                                </div>
                                                                                
@@ -159,177 +159,214 @@ if ($url =='djiant.com' ) {
                                                                      </div>
                                                  </div>
                                             </div>
-
-          
-        
-            
-            
-            </div>
-            <div class="row" id="network_5" style="display:none;">
-            <ul id="racine" >	
-							
-              <li  style="padding:5px 0px 5px 0px;" >	
-                <div class="row racine1 racine-down" style="margin: 0px;padding: 0px; ">
-                <div class="col-md-8 racine racine-down "style="margin: 0px 0px 0px 0px;padding: 0px;">
-                  Regional Economies
-                </div>
               </div>
-            
-            
-              <ul class="domaine active" style="margin-left: 25px;">
-                            <div class="djiant-col-md-2 " style="margin-left: -16px; width: 180px;    margin-top: 10px;height: 315px;">
-                              <div class="thumbnail disabled-network">
-                                                    <img src="assets/image/CCI-France-International.png"  style="width: 100%; height: 140px; display: block;">
-                                                    <div class="caption popupInfo-body">
-                                                     <div class="row">
-                                                       <div class="col-md-12">
-                                                         <h4 style=" font-size: 14px;">CCI FRANCE INTERNATIONAL</h4>
-                                                         <p style="font-family: calibri; font-weight: 100;">    Abroad French Chambers of Commerce, gathering a global community of 38.500 businesses.  </p>
-                                                         </div>
-                                                     </div>
-    
-                                                   </div>
-                               </div>
-                          </div>
-                           <div class="djiant-col-md-2" style="width: 180px;    margin-top: 10px;height: 315px;">
-                                <div class="thumbnail active-network" id="TECHNOPARKS">
-                                                      <img src="assets/image/Technoparks.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
-                                                      <div class="caption popupInfo-body ">
-                                                       <div class="row">
-                                                         <div class="col-md-12">
-                                                           <h4 style=" font-size: 14px;">TECHNOPARKS </h4>
-                                                           <p style="font-family: calibri; font-weight: 100;"> Places where tomorow’s economy is invented.   </p>
-                         
-                                                           </div>
-                                                       </div>
-                                                       <div class="row">
-                                                               <div class="col-md-4">
-                                                                 <h3 style="font-size: 18px;margin-top: 10px">71</h3>
-                                                                 <p>Covered countries   </p>
-                                                               </div>
-                                                              
-                                                               <div class="col-md-4">
-                                                                 <h3 style="font-size: 18px;margin-top: 10px">900</h3>
-                                                                 <p>Communties    </p>
-                                                               </div>
-                                                               
+            <!-- end network_4-->
+            <div class="row" id="network_5" style="display:none;">
+            <div class="scrollable" style="max-height: 530px; direction: ltr;  ">
+              <ul id="racine" >	
+							
+                <li  style="padding:5px 0px 5px 0px;" >	
+                  <div class="row racine1 racine-down" style="margin: 0px;padding: 0px; ">
+                  <div class="col-md-8 racine racine-down "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+                    Regional Economies
+                  </div>
+                </div>
+              
+              
+                <ul class="domaine active" style="margin-left: 25px;">
+                  <div class="djiant-col-md-11 " style="margin-left: -7px;">
+                  <div class="row">
+                <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+        <div class="thumbnail active-network" id="TECHNOPARKS">
+                                                        <img src="assets/image/60x60.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                                                        <div class="caption popupInfo-body ">
+                                                         <div class="row">
+                                                           <div class="col-md-12">
+                                                             <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">Regional</h4>
+                                                             <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> Places where tomorow’s economy is invented.   </p>
                                                              </div>
-                                                     </div>
-                                 </div>
-                            </div>
-                            <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
-                              <div class="thumbnail disabled-network" id="Belgian-Chambers">
-                                <img src="assets/image/Belgian-Chambers.png"  style="width: 100%; height: 140px; display: block;">
-                                <div class="caption popupInfo-body">
-                                 <div class="row">
-                                   <div class="col-md-12">
-                                     <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">  BELGIAN CHAMBERS</h4>
-                                     <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> The Federation of chambers of commerce in Belgium and Belgian chambers abroad.  </p>
-                                     </div>
-                                 </div>
-                                 <div class="row" style="margin-top:88px;">
-                                        
-                                         
-                                       </div>
-                               </div>
-                                 </div>
-                            </div>
-                            <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
-                              <div class="thumbnail disabled-network " id="Clusters">
-                                <img src="assets/image/Clusters.png"  style="width: 100%; height: 140px; display: block;" >
-                                <div class="caption popupInfo-body">
-                                 <div class="row">
-                                   <div class="col-md-12">
-                                     <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">CLUSTERS </h4>
-                                     <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> Coming soon </p>
-                                     </div>
-                                 </div>
-                                <div class="row" style="margin-top:122px;">
-                                        
-                                         
-                                       </div>
-                               </div>
-                                 </div>
-                            </div>
-                           
-                          
-                         
-                        
-                            <div class="djiant-col-md-2 " style="margin-left: -16px;width: 180px;    margin-top: 10px;height: 315px;">
-                              <div class="thumbnail disabled-network" id="DevAgencies">
-                                <img src="assets/image/DevAgencies.png"  style="width: 100%; height: 140px; display: block;" >
-                                <div class="caption popupInfo-body">
-                                 <div class="row">
-                                   <div class="col-md-12">
-                                     <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">DEVELOPMENT AGENCIES </h4>
-                                     <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> Coming soon </p>
-                                     </div>
-                                 </div>
-                                <div class="row" style="margin-top:122px;">
-                                        
-                                         
-                                       </div>
-                               </div>
-                                 </div>
-                            </div>
-                            <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
-                              <div class="thumbnail disabled-network " id="Clusters">
-                                <img src="assets/image/CCI.png"  style="width: 100%; height: 140px; display: block;" >
-                                                                          <div class="caption popupInfo-body">
-                                                                           <div class="row">
-                                                                             <div class="col-md-12">
-                                                                              <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">CHAMB.WORKS  </h4>
-                                                                               <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
-                                                                              Coming soon  </p>
-                                                                               </div>
-                                                                           </div>
-                                                                           <div class="row" style="margin-top: 122px;">
-                                                                                  
-                                                                                   
-                                                                                 </div>
-                                                                          
-                                                                         </div>
-                                 </div>
-                            </div>
-                            <div class="djiant-col-md-2 " style="width: 180px;    margin-top: 10px;height: 315px;">
-                              <div class="thumbnail disabled-network " id="Clusters">
-                                <img src="assets/image/Confederations.png"  style="width: 100%; height: 140px; display: block;" >
-                                <div class="caption popupInfo-body">
-                                 <div class="row">
-                                   <div class="col-md-12">
-                                    <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">BUSINESS FEDERATIONS </h4>
-                                     <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
-                                    Coming soon  </p>
-                                     </div>
-                                 </div>
-                                 <div class="row" style="margin-top: 122px;">
-                                        
-                                         
-                                       </div>
-                                
-                               </div>
-                              </div>
-                                 </div>
-                            
-                            
-                          
-                  
-                  
-    
-          </ul>
-           </li> 
-           </ul>
-                                            
+                                                         </div>
+                                                         <div class="row" style="margin-top: 63px;">
+                                                                 <div class="col-md-4">
+                                                                   <h4 style="margin-bottom: 0px;">71</h4>
+                                                                   <p style="margin-top: 0px;" > Countries   </p>
+                                                                 </div>
+                                                                
+                                                                 <div class="col-md-4">
+                                                                   <h4 style="margin-bottom: 0px;">900</h4>
+                                                                   <p style="margin-top: 0px;">Communities    </p>
+                                                                 </div>
+                                                                 
+                                                               </div>
+                                                       </div>
+                                   </div>
+      </div>
+                                   <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+                                   <div class="thumbnail active-network" id="TECHNOPARKS">
+                                                        <img src="assets/image/Technoparks.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                                                        <div class="caption popupInfo-body ">
+                                                         <div class="row">
+                                                           <div class="col-md-12">
+                                                             <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">TECHNOPARKS </h4>
+                                                             <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> Places where tomorow’s economy is invented.   </p>
+                                                             </div>
+                                                         </div>
+                                                         <div class="row" style="margin-top: 63px;">
+                                                                 <div class="col-md-4">
+                                                                   <h4 style="margin-bottom: 0px;">71</h4>
+                                                                   <p style="margin-top: 0px;" > Countries   </p>
+                                                                 </div>
+                                                                
+                                                                 <div class="col-md-4">
+                                                                   <h4 style="margin-bottom: 0px;">900</h4>
+                                                                   <p style="margin-top: 0px;">Communities    </p>
+                                                                 </div>
+                                                                 
+                                                               </div>
+                                                       </div>
+                                   </div>
+                                   </div>
+                                   <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+                                          <div class="thumbnail disabled-network" id="CCI-France-International" >
+                                                                <img src="assets/image/CCI-France-International.png"  style="width: 100%; height: 140px; display: block;" >
+                                                                <div class="caption popupInfo-body ">
+                                                                 <div class="row">
+                                                                   <div class="col-md-12">
+                                                                    <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">CCI FRANCE INTERNATIONAL  </h4>
+                                                                     <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                                                      Abroad French Chambers of Commerce, gathering a global community of 38.500 businesses.  </p>
+                                                                     </div>
+                                                                 </div>
+                                                                  <div class="row" style="margin-top:88px;">
+                                                                        
+                                                                         
+                                                                       </div>
+                                                               </div>
+                                           </div>
+                                      </div>
+                                      <div class="djiant-col-md-2 "style="margin-right: 6px;margin-top:20px;">
+                                          <div class="thumbnail disabled-network" id="Belgian-Chambers">
+                                                                <img src="assets/image/Belgian-Chambers.png"  style="width: 100%; height: 140px; display: block;">
+                                                                <div class="caption popupInfo-body ">
+                                                                 <div class="row">
+                                                                   <div class="col-md-12">
+                                                                     <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">  BELGIAN CHAMBERS</h4>
+                                                                     <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> The Federation of chambers of commerce in Belgium and Belgian chambers abroad.  </p>
+                                                                     </div>
+                                                                 </div>
+                                                                 <div class="row" style="margin-top:88px;">
+                                                                        
+                                                                         
+                                                                       </div>
+                                                               </div>
+                                           </div>
+                                      </div>
+                                      <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+                                          <div class="thumbnail disabled-network " id="Clusters">
+                                                                <img src="assets/image/Clusters.png"  style="width: 100%; height: 140px; display: block;" >
+                                                                <div class="caption popupInfo-body ">
+                                                                 <div class="row">
+                                                                   <div class="col-md-12">
+                                                                     <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">CLUSTERS </h4>
+                                                                     <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> Coming soon </p>
+                                                                     </div>
+                                                                 </div>
+                                                                <div class="row" style="margin-top:122px;">
+                                                                        
+                                                                         
+                                                                       </div>
+                                                               </div>
+                                           </div>
+                                      </div>
+                                      <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+                                           <div class="thumbnail disabled-network" id="DevAgencies">
+                                                                <img src="assets/image/DevAgencies.png"  style="width: 100%; height: 140px; display: block;" >
+                                                                <div class="caption popupInfo-body ">
+                                                                 <div class="row">
+                                                                   <div class="col-md-12">
+                                                                     <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">DEVELOPMENT AGENCIES </h4>
+                                                                     <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> Coming soon </p>
+                                                                     </div>
+                                                                 </div>
+                                                                <div class="row" style="margin-top:122px;">
+                                                                        
+                                                                         
+                                                                       </div>
+                                                               </div>
+                                           </div>
+                                      </div>
+                                      
+                                      <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+                                          <div class="thumbnail disabled-network" id="CHAMB-WORKS">
+                                                                <img src="assets/image/CCI.png"  style="width: 100%; height: 140px; display: block;" >
+                                                                <div class="caption popupInfo-body ">
+                                                                 <div class="row">
+                                                                   <div class="col-md-12">
+                                                                    <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">CHAMB.WORKS  </h4>
+                                                                     <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                                                    Coming soon  </p>
+                                                                     </div>
+                                                                 </div>
+                                                                 <div class="row" style="margin-top: 122px;">
+                                                                        
+                                                                         
+                                                                       </div>
+                                                                
+                                                               </div>
+                                           </div>
+                                      </div>
+                                      <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+                                          <div class="thumbnail disabled-network" id="BUSINESS-FEDERATIONS">
+                                                                <img src="assets/image/Confederations.png"  style="width: 100%; height: 140px; display: block;" >
+                                                                <div class="caption popupInfo-body ">
+                                                                 <div class="row">
+                                                                   <div class="col-md-12">
+                                                                    <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">BUSINESS FEDERATIONS </h4>
+                                                                     <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                                                    Coming soon  </p>
+                                                                     </div>
+                                                                 </div>
+                                                                 <div class="row" style="margin-top: 122px;">
+                                                                        
+                                                                         
+                                                                       </div>
+                                                                
+                                                               </div>
+                                           </div>
+                                      </div>
+                                      </div>
+                                      </div>
+            </ul>
+             </li> 
+             </ul>
 
-          
-        
-            
-            
+              <ul id="racine" >						
+                <li  style="padding:0px;" >
+                <div class="row racine1" style="margin: 0px;padding: 0px; ">
+                  <div class="col-md-8 "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+                    <span class="racine">Building</span>	
+                  </div>
+                </div>
+                </li>
+                </ul>
+                <ul id="racine" >						
+                  <li  style="padding:0px;" >
+                  <div class="row racine1" style="margin: 0px;padding: 0px; ">
+                    <div class="col-md-8 "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+                      <span class="racine">Business sevices</span>	
+                    </div>
+                  </div>
+                  </li>
+                  </ul>
+                  </div>
+            <!-- end network_5-->  
             </div>
+           
+            
             <!-- end scroll-->
+            
             </div>
-            </div>
-           <!-- <img  src="assets/image/Vignette-reseau-Regional.png" alt="Regional Djiant" >-->
+           
         </div>
 
     </div>
