@@ -169,7 +169,7 @@ if ($url =='djiant.com' ) {
     
       <li  style="padding:5px 0px 5px 0px;" >	
         <div class="row racine1 racine-down" style="margin: 0px;padding: 0px; ">
-        <div class="col-md-8 racine racine-down "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+        <div class="col-md-8 racine racine-down "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;display:flex;align-items: flex-end;">
           Regional Economies
         </div>
       </div>
@@ -347,7 +347,7 @@ if ($url =='djiant.com' ) {
     
 <li  style="padding:5px 0px 5px 0px;" >	
 <div class="row racine1" style="margin: 0px;padding: 0px; ">
-<div class="col-md-8 racine"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+<div class="col-md-8 racine"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;display:flex;align-items: flex-end;">
 Information Technologies
 </div>
 </div>
@@ -546,7 +546,7 @@ Information Technologies
     
 <li  style="padding:5px 0px 5px 0px;" >	
 <div class="row racine1" style="margin: 0px;padding: 0px; ">
-<div class="col-md-8 racine"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+<div class="col-md-8 racine"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;display:flex;align-items: flex-end;">
 Higher Education
 </div>
 </div>
@@ -655,7 +655,7 @@ Higher Education
     
 <li  style="padding:5px 0px 5px 0px;" >	
 <div class="row racine1" style="margin: 0px;padding: 0px; ">
-<div class="col-md-8 racine"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+<div class="col-md-8 racine"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;display:flex;align-items: flex-end;">
 Entrepreneurship
 </div>
 </div>
@@ -765,7 +765,7 @@ Entrepreneurship
     <ul id="racine" >						
       <li  style="padding:5px 0px 5px 0px;" >
       <div class="row racine1" style="margin: 0px;padding: 0px; ">
-        <div class="col-md-8 racine "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+        <div class="col-md-8 racine "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;display:flex;align-items: flex-end;">
           Building	
         </div>
       </div>
@@ -774,7 +774,7 @@ Entrepreneurship
       <ul id="racine" >						
         <li style="padding:5px 0px 5px 0px;" >
         <div class="row racine1" style="margin: 0px;padding: 0px; ">
-          <div class="col-md-8 racine"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+          <div class="col-md-8 racine"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;display:flex;align-items: flex-end;">
             Business sevices	
           </div>
         </div>
