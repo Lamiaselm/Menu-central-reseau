@@ -89,7 +89,7 @@ if ($url =='djiant.com' ) {
         <div class="tabbable-line " style="    padding-left: 0px;">
                       
                         <ul class="nav nav-tabs ">
-                          <li class =""style="margin-top:1px;">
+                          <li class ="active"style="margin-top:1px;">
                             <a id="tab_1" data-toggle="tab">
                             <h4 style="margin:0px; font-weight: 400;" >New communities</h4> </a>
                           </li>
@@ -136,7 +136,7 @@ if ($url =='djiant.com' ) {
                                             </div>
                                             <div class="djiant-col-md-2"  style="margin-left: 5px; margin-right: 5px;" >
                                         <span class="here"> <img  id="popupInfo-btn" width="15px" src="assets/new-icons/Acceuil-Reseau.svg" alt="" >You are here</span>   
-                                                <div class="thumbnail active-network" id="TECHNOPARKS">
+                                                <div class="thumbnail active-network" id="TECHNOPARKS"style="height:335px;">
                                                                       <img src="assets/image/Technoparks.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                                                                       <div class="caption popupInfo-body ">
                                                                        <div class="row">
@@ -1276,7 +1276,7 @@ Entrepreneurship
               	</div>
               </div>
             </div>
-            <script src="assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
+            
 <script>
 	        /**
          * Create new map
@@ -3651,12 +3651,9 @@ Entrepreneurship
    if(currentZoomLevel != 0){
      map.setZoom(currentZoomLevel - 1);}     
   });
-  $(document).on("click","li",function(){
-    $(this).addClass('active');
 
-
-});
   $(document).on("click","#tab_1",function(){
+  
     $("#network_5").hide();
 	  $('#network_4').show();
 });
@@ -3868,6 +3865,7 @@ document.getElementById('btnFullscreen').addEventListener('click', function() {
 });
 
 </script>
+<script src="assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
 <script src="assets/global/plugins/racine/racine.js" type="text/javascript"></script>
 <script src="assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" type="text/javascript"></script>
 <script src="assets/global/plugins/bootstrap-modal/js/bootstrap-modal.js" type="text/javascript"></script>
