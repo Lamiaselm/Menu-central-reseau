@@ -162,8 +162,9 @@ if ($url =='djiant.com' ) {
               </div>
             <!-- end network_4-->
             <div class="row" id="network_5" style="display:none;">
-           <div class="scrollable" style="max-height: 530px; direction: ltr;  ">
-    <ul id="racine" >	
+           <div class="scrollable" style="max-height: 530px; margin-right:20px;">
+           <div class="container">
+        <ul id="racine" >	
     
       <li  style="padding:5px 0px 5px 0px;" >	
         <div class="row racine1 racine-down" style="margin: 0px;padding: 0px; ">
@@ -174,10 +175,11 @@ if ($url =='djiant.com' ) {
     
     
       <ul class="domaine active" style="margin-left: 25px;">
-        <div class="djiant-col-md-11 " style="margin-left: -7px;">
+       
         <div class="row">
-      <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
-<div class="thumbnail active-network" id="TECHNOPARKS">
+        <div class="djiant-col-md-11 " style="margin-left: -7px;">
+        <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;height:335px;">
+                         <div class="thumbnail active-network" id="TECHNOPARKS" style="height:335px;">
                                               <img src="assets/image/60x60.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                                               <div class="caption popupInfo-body ">
                                                <div class="row">
@@ -201,8 +203,8 @@ if ($url =='djiant.com' ) {
                                              </div>
                          </div>
 </div>
-                         <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
-                         <div class="thumbnail active-network" id="TECHNOPARKS">
+                         <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;height:335px;">
+                         <div class="thumbnail active-network" id="TECHNOPARKS" style="height:335px;">
                                               <img src="assets/image/Technoparks.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                                               <div class="caption popupInfo-body ">
                                                <div class="row">
@@ -350,8 +352,8 @@ Information Technologies
 
 
 <ul class="domaine active" style="margin-left: 25px;">
-<div class="djiant-col-md-11 " style="margin-left: -7px;">
 <div class="row">
+<div class="djiant-col-md-11 " style="margin-left: -7px;">
 <div class="djiant-col-md-2" style="margin-right: 6px;margin-top:20px;">
 <div class="thumbnail disabled-network">
                     <img src="assets/image/60x60.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
@@ -549,8 +551,9 @@ Higher Education
 
 
 <ul class="domaine active" style="margin-left: 25px;">
-<div class="djiant-col-md-11 " style="margin-left: -7px;">
+
 <div class="row">
+<div class="djiant-col-md-11 " style="margin-left: -7px;">
 <div class="djiant-col-md-2" style="margin-right: 6px;margin-top:20px;">
 <div class="thumbnail disabled-network">
                     <img src="assets/image/60x60.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
@@ -657,8 +660,9 @@ Entrepreneurship
 
 
 <ul class="domaine active" style="margin-left: 25px;">
-<div class="djiant-col-md-11 " style="margin-left: -7px;">
+
 <div class="row">
+<div class="djiant-col-md-11 " style="margin-left: -7px;">
 <div class="djiant-col-md-2" style="margin-right: 6px;margin-top:20px;">
 <div class="thumbnail disabled-network">
                     <img src="assets/image/60x60.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
@@ -776,6 +780,7 @@ Entrepreneurship
         </ul>
         </div>
   <!-- end network_5-->  
+  </div>
   </div>
            
             
