@@ -163,7 +163,7 @@ if ($url =='djiant.com' ) {
             <!-- end network_4-->
             <div class="row" id="network_5" style="display:none;">
            <div class="scrollable" style="max-height: 530px; margin-right:20px;">
-           <div class="container">
+           <div class="container" style="width:100%">
         <ul id="racine" >	
     
       <li  style="padding:5px 0px 5px 0px;" >	
@@ -344,14 +344,14 @@ if ($url =='djiant.com' ) {
    <ul id="racine" >	
     
 <li  style="padding:5px 0px 5px 0px;" >	
-<div class="row racine1 racine-down" style="margin: 0px;padding: 0px; ">
-<div class="col-md-8 racine racine-down "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+<div class="row racine1" style="margin: 0px;padding: 0px; ">
+<div class="col-md-8 racine"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
 Information Technologies
 </div>
 </div>
 
 
-<ul class="domaine active" style="margin-left: 25px;">
+<ul class="domaine" style="margin-left: 25px;">
 <div class="row">
 <div class="djiant-col-md-11 " style="margin-left: -7px;">
 <div class="djiant-col-md-2" style="margin-right: 6px;margin-top:20px;">
@@ -543,14 +543,14 @@ Information Technologies
 <ul id="racine" >	
     
 <li  style="padding:5px 0px 5px 0px;" >	
-<div class="row racine1 racine-down" style="margin: 0px;padding: 0px; ">
-<div class="col-md-8 racine racine-down "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+<div class="row racine1" style="margin: 0px;padding: 0px; ">
+<div class="col-md-8 racine"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
 Higher Education
 </div>
 </div>
 
 
-<ul class="domaine active" style="margin-left: 25px;">
+<ul class="domaine" style="margin-left: 25px;">
 
 <div class="row">
 <div class="djiant-col-md-11 " style="margin-left: -7px;">
@@ -652,14 +652,14 @@ Higher Education
 <ul id="racine" >	
     
 <li  style="padding:5px 0px 5px 0px;" >	
-<div class="row racine1 racine-down" style="margin: 0px;padding: 0px; ">
-<div class="col-md-8 racine racine-down "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+<div class="row racine1" style="margin: 0px;padding: 0px; ">
+<div class="col-md-8 racine"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
 Entrepreneurship
 </div>
 </div>
 
 
-<ul class="domaine active" style="margin-left: 25px;">
+<ul class="domaine" style="margin-left: 25px;">
 
 <div class="row">
 <div class="djiant-col-md-11 " style="margin-left: -7px;">
@@ -763,8 +763,8 @@ Entrepreneurship
     <ul id="racine" >						
       <li  style="padding:0px;" >
       <div class="row racine1" style="margin: 0px;padding: 0px; ">
-        <div class="col-md-8 "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
-          <span class="racine">Building</span>	
+        <div class="col-md-8 racine "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+          Building	
         </div>
       </div>
       </li>
@@ -772,8 +772,8 @@ Entrepreneurship
       <ul id="racine" >						
         <li  style="padding:0px;" >
         <div class="row racine1" style="margin: 0px;padding: 0px; ">
-          <div class="col-md-8 "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
-            <span class="racine">Business sevices</span>	
+          <div class="col-md-8 racine"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+            Business sevices	
           </div>
         </div>
         </li>
