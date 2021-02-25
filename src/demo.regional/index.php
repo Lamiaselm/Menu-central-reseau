@@ -339,6 +339,426 @@ if ($url =='djiant.com' ) {
             </ul>
              </li> 
              </ul>
+             <ul id="racine" >	
+							
+  <li  style="padding:5px 0px 5px 0px;" >	
+    <div class="row racine1 racine-down" style="margin: 0px;padding: 0px; ">
+    <div class="col-md-8 racine racine-down "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+      Information Technologies
+    </div>
+  </div>
+
+
+  <ul class="domaine active" style="margin-left: 25px;">
+    <div class="djiant-col-md-11 " style="margin-left: -7px;">
+    <div class="row">
+      <div class="djiant-col-md-2" style="margin-right: 6px;margin-top:20px;">
+        <div class="thumbnail disabled-network">
+                              <img src="assets/image/60x60.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">Information Technologies </h4>
+                                    <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+         </div>
+    </div>
+    <div class="djiant-col-md-2"style="margin-right: 6px;margin-top:20px;">
+      <div class="thumbnail disabled-network">
+                            <img src="assets/image/Cloud.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                            <div class="caption popupInfo-body ">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">CLOUD </h4>
+                                  <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+       </div>
+  </div>
+  <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+    <div class="thumbnail disabled-network">
+                          <img src="assets/image/Data.png"  style="width: 100%; height: 140px; display: block;" >
+                          <div class="caption popupInfo-body ">
+                           <div class="row">
+                             <div class="col-md-12">
+                               <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">DATA </h4>
+                               <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                              Coming soon  </p>
+                               </div>
+                           </div>
+                           <div class="row" style="margin-top: 122px;">
+                                  
+                                   
+                                 </div>
+                         </div>
+     </div>
+</div>
+<div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+  <div class="thumbnail disabled-network">
+                        <img src="assets/image/Digital ARts.png"  style="width: 100%; height: 140px; display: block;" >
+                        <div class="caption popupInfo-body ">
+                         <div class="row">
+                           <div class="col-md-12">
+                             <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">DIGITAL ARTS </h4>
+                            <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                            Coming soon  </p>
+                             </div>
+                         </div>
+                         <div class="row" style="margin-top: 122px;">
+                                
+                                 
+                               </div>
+                       </div>
+   </div>
+</div>
+<div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+  <div class="thumbnail disabled-network">
+                        <img src="assets/image/ITHealth.png"  style="width: 100%; height: 140px; display: block;" >
+                        <div class="caption popupInfo-body ">
+                         <div class="row">
+                           <div class="col-md-12">
+                             <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">IT HEALTH </h4>
+                            <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                            Coming soon  </p>
+                             </div>
+                         </div>
+                         <div class="row" style="margin-top: 122px;">
+                                
+                                 
+                               </div>
+                       </div>
+   </div>
+</div>
+<div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+  <div class="thumbnail disabled-network">
+                        <img src="assets/image/IT Retail.png"  style="width: 100%; height: 140px; display: block;">
+                        <div class="caption popupInfo-body ">
+                         <div class="row">
+                           <div class="col-md-12">
+                             <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">IT RETAIL </h4>
+                            <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                            Coming soon  </p>
+                             </div>
+                         </div>
+                         <div class="row" style="margin-top: 122px;">
+                                
+                                 
+                               </div>
+                       </div>
+   </div>
+</div>
+<div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+  <div class="thumbnail disabled-network">
+                        <img src="assets/image/LINUX.jpg"  style="width: 100%; height: 140px; display: block;">
+                        <div class="caption popupInfo-body ">
+                         <div class="row">
+                           <div class="col-md-12">
+                             <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">LINUX </h4>
+                            <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                            Coming soon  </p>
+                             </div>
+                         </div>
+                         <div class="row" style="margin-top: 122px;">
+                                
+                                 
+                               </div>
+                       </div>
+   </div>
+</div>
+<div class="djiant-col-md-2 "  style="margin-right: 6px;margin-top:20px;">
+  <div class="thumbnail disabled-network">
+                        <img src="assets/image/Coding.png"  style="width: 100%; height: 140px; display: block;" >
+                        <div class="caption popupInfo-body ">
+                         <div class="row">
+                           <div class="col-md-12">
+                             <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">Coding</h4>
+                            <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                            Coming soon  </p>
+                             </div>
+                         </div>
+                         <div class="row" style="margin-top: 122px;">
+                                
+                                 
+                               </div>
+                       </div>
+   </div>
+</div>
+<div class="djiant-col-md-2 "  style="margin-right: 6px;margin-top:20px;">
+  <div class="thumbnail disabled-network">
+                        <img src="assets/image/Cybersecu.png"  style="width: 100%; height: 140px; display: block;">
+                        <div class="caption popupInfo-body ">
+                         <div class="row">
+                           <div class="col-md-12">
+                             <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">SECURTY </h4>
+                            <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                            Coming soon  </p>
+                             </div>
+                         </div>
+                         <div class="row" style="margin-top: 122px;">
+                                
+                                 
+                               </div>
+                       </div>
+   </div>
+</div>
+<div class="djiant-col-md-2"  style="margin-right: 6px;margin-top:20px;">
+  <div class="thumbnail disabled-network">
+                        <img src="assets/image/Telecom.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                        <div class="caption popupInfo-body ">
+                         <div class="row">
+                           <div class="col-md-12">
+                             <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">TELECOM </h4>
+                            <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                            Coming soon  </p>
+                             </div>
+                         </div>
+                         <div class="row" style="margin-top: 122px;">
+                                
+                                 
+                               </div>
+                       </div>
+   </div>
+</div>
+
+   </div>
+  </div>
+</ul>
+</li> 
+</ul>
+<ul id="racine" >	
+							
+  <li  style="padding:5px 0px 5px 0px;" >	
+    <div class="row racine1 racine-down" style="margin: 0px;padding: 0px; ">
+    <div class="col-md-8 racine racine-down "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+     Higher Education
+    </div>
+  </div>
+
+
+  <ul class="domaine active" style="margin-left: 25px;">
+    <div class="djiant-col-md-11 " style="margin-left: -7px;">
+    <div class="row">
+      <div class="djiant-col-md-2" style="margin-right: 6px;margin-top:20px;">
+        <div class="thumbnail disabled-network">
+                              <img src="assets/image/60x60.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;"> Higher Education </h4>
+                                    <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+         </div>
+    </div>
+    <div class="djiant-col-md-2 "  style="margin-right: 6px;margin-top:20px;">
+      <div class="thumbnail disabled-network">
+                            <img src="assets/image/Business Schools.png"  style="width: 100%; height: 140px; display: block;">
+                            <div class="caption popupInfo-body ">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">BUSINESS SCHOOLS </h4>
+                                <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+       </div>
+  </div>
+ <div class="djiant-col-md-2"  style="margin-right: 6px;margin-top:20px;">
+      <div class="thumbnail disabled-network">
+                            <img src="assets/image/Exec Training.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                            <div class="caption popupInfo-body ">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">EXECUTIVE TRAINING </h4>
+                              <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+       </div>
+  </div>
+  <div class="djiant-col-md-2 "  style="margin-right: 6px;margin-top:20px;">
+      <div class="thumbnail disabled-network">
+                            <img src="assets/image/Research.png"  style="width: 100%; height: 140px; display: block;" >
+                            <div class="caption popupInfo-body ">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">RESEARCH NET </h4>
+                               <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+       </div>
+  </div>
+  <div class="djiant-col-md-2 "  style="margin-right: 6px;margin-top:20px;">
+      <div class="thumbnail disabled-network">
+                            <img src="assets/image/Universities.png"  style="width: 100%; height: 140px; display: block;" >
+                            <div class="caption popupInfo-body ">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">UNIVERSITIES </h4>
+                                 <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+       </div>
+  </div>
+    
+   </div>
+</div>
+
+   </div>
+  </div>
+</ul>
+</li> 
+</ul>
+<ul id="racine" >	
+							
+  <li  style="padding:5px 0px 5px 0px;" >	
+    <div class="row racine1 racine-down" style="margin: 0px;padding: 0px; ">
+    <div class="col-md-8 racine racine-down "style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;">
+     Entrepreneurship
+    </div>
+  </div>
+
+
+  <ul class="domaine active" style="margin-left: 25px;">
+    <div class="djiant-col-md-11 " style="margin-left: -7px;">
+    <div class="row">
+      <div class="djiant-col-md-2" style="margin-right: 6px;margin-top:20px;">
+        <div class="thumbnail disabled-network">
+                              <img src="assets/image/60x60.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                              <div class="caption popupInfo-body ">
+                               <div class="row">
+                                 <div class="col-md-12">
+                                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">  Entrepreneurship </h4>
+                                    <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                  Coming soon  </p>
+                                   </div>
+                               </div>
+                               <div class="row" style="margin-top: 122px;">
+                                      
+                                       
+                                     </div>
+                             </div>
+         </div>
+    </div>
+    <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+      <div class="thumbnail disabled-network">
+                            <img src="assets/image/Finance.png"  style="width: 100%; height: 140px; display: block;">
+                            <div class="caption popupInfo-body ">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">FINANCE </h4>
+                                <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+       </div>
+  </div>
+ <div class="djiant-col-md-2" style="margin-right: 6px;margin-top:20px;">
+      <div class="thumbnail disabled-network">
+                            <img src="assets/image/HR.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
+                            <div class="caption popupInfo-body  ">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">HUMAN RESSOURCES </h4>
+                                <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+       </div>
+  </div>
+  <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+      <div class="thumbnail disabled-network">
+                            <img src="assets/image/Incubators.png"  style="width: 100%; height: 140px; display: block;" >
+                            <div class="caption popupInfo-body ">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">INCUBATORS </h4>
+                                 <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+       </div>
+  </div>
+  <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
+      <div class="thumbnail disabled-network">
+                            <img src="assets/image/Logistics.png"  style="width: 100%; height: 140px; display: block;" >
+                            <div class="caption popupInfo-body ">
+                             <div class="row">
+                               <div class="col-md-12">
+                                 <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">LOGISTICS </h4>
+                                <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
+                                Coming soon  </p>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 122px;">
+                                    
+                                     
+                                   </div>
+                           </div>
+       </div>
+      </div>
+
+   </div>
+  </div>
+</ul>
+</li> 
+</ul>
 
               <ul id="racine" >						
                 <li  style="padding:0px;" >
