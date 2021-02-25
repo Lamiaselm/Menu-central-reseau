@@ -89,11 +89,11 @@ if ($url =='djiant.com' ) {
         <div class="tabbable-line " style="    padding-left: 0px;">
                       
                         <ul class="nav nav-tabs ">
-                          <li class =""style="margin-bottom:-21px;">
+                          <li class =""style="margin-top:1px;">
                             <a id="tab_1" data-toggle="tab">
                             <h4 style="margin:0px; font-weight: 400;" >New communities</h4> </a>
                           </li>
-                          <li class ="" style="margin-bottom:-21px;">
+                          <li class ="" style="margin-top:1px;">
                             <a id="tab_2" data-toggle="tab">
                           <h4 style="margin:0px; font-weight: 400;" >All communities</h4>	 </a>
                           </li>
@@ -3650,11 +3650,6 @@ Entrepreneurship
      map.setZoom(currentZoomLevel - 1);}     
   });
   $(document).on("click","li",function(){
-    if($(this).hasClass('active'))
-    { console.log("remove")
-      $(this).removeClass('active'); 
-    }
-   
     $(this).addClass('active');
 
 
