@@ -89,7 +89,7 @@ if ($url =='djiant.com' ) {
         <div class="tabbable-line " style="    padding-left: 0px;">
                       
         <ul class="nav nav-tabs ">
-                          <li class ="tab-list"style="margin-top:1px;">
+                          <li class ="tab-list active"style="margin-top:1px;">
                             <a id="tab_1" data-toggle="tab">
                             <h4 style="margin:0px; font-weight: 400;" >New communities</h4> </a>
                           </li>
@@ -108,9 +108,9 @@ if ($url =='djiant.com' ) {
       
          
           
-          <div class="row" id="network_4" style="display:none;">
+          <div class="row" id="network_4" style="display:block;">
                                          <div class="djiant-col-md-2"  style="margin-left: 44px; margin-right: 5px;padding-top:21px;" >
-                                                <div class="thumbnail active-network" id="TECHNOPARKS">
+                                                <div class="thumbnail active-network" id="TECHNOPARKS"style="height:335px;">
                                                                       <img src="assets/image/60x60.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                                                                       <div class="caption popupInfo-body ">
                                                                        <div class="row">
@@ -136,7 +136,7 @@ if ($url =='djiant.com' ) {
                                             </div>
                                             <div class="djiant-col-md-2"  style="margin-left: 5px; margin-right: 5px;" >
                                         <span class="here"> <img  id="popupInfo-btn" width="15px" src="assets/new-icons/Acceuil-Reseau.svg" alt="" >You are here</span>   
-                                                <div class="thumbnail active-network" id="TECHNOPARKS"style="height:363px;">
+                                                <div class="thumbnail active-network" id="TECHNOPARKS"style="height:335px;">
                                                                       <img src="assets/image/Technoparks.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                                                                       <div class="caption popupInfo-body ">
                                                                        <div class="row">
@@ -163,7 +163,7 @@ if ($url =='djiant.com' ) {
               </div>
             <!-- end network_4-->
             <div class="row" id="network_5" style="display:none;">
-           <div class="scrollable" style="max-height: 530px; margin-right:20px;">
+           <div class="scrollable" style="max-height: 530px; margin-right:20px;width:100%;">
            <div class="container" style="width:100%">
         <ul id="racine" >	
     
