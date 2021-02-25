@@ -88,14 +88,14 @@ if ($url =='djiant.com' ) {
           <div class="page-header-inner">
         <div class="tabbable-line " style="    padding-left: 0px;">
                       
-                        <ul class="nav nav-tabs ">
-                          <li class ="active"style="margin-top:1px;">
+        <ul class="nav nav-tabs ">
+                          <li class ="tab-list"style="margin-top:1px;">
                             <a id="tab_1" data-toggle="tab">
                             <h4 style="margin:0px; font-weight: 400;" >New communities</h4> </a>
                           </li>
-                          <li class ="" style="margin-top:1px;">
+                          <li class ="tab-list" style="margin-top:1px;">
                             <a id="tab_2" data-toggle="tab">
-                          <h4 style="margin:0px; font-weight: 400;" >All communities</h4>	 </a>
+                          <h4 style="margin:0px; font-weight: 400;" >All communities</h4>  </a>
                           </li>
                           
                         </ul>
@@ -136,7 +136,7 @@ if ($url =='djiant.com' ) {
                                             </div>
                                             <div class="djiant-col-md-2"  style="margin-left: 5px; margin-right: 5px;" >
                                         <span class="here"> <img  id="popupInfo-btn" width="15px" src="assets/new-icons/Acceuil-Reseau.svg" alt="" >You are here</span>   
-                                                <div class="thumbnail active-network" id="TECHNOPARKS"style="height:335px;">
+                                                <div class="thumbnail active-network" id="TECHNOPARKS"style="height:363px;">
                                                                       <img src="assets/image/Technoparks.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                                                                       <div class="caption popupInfo-body ">
                                                                        <div class="row">
@@ -3651,7 +3651,10 @@ Entrepreneurship
    if(currentZoomLevel != 0){
      map.setZoom(currentZoomLevel - 1);}     
   });
-
+  var $tab = $('.tab-list').on('click', function(e) {
+    $tab.removeClass('active');
+    $(this).addClass('active');
+});
   $(document).on("click","#tab_1",function(){
   
     $("#network_5").hide();
