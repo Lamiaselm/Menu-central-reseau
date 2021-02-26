@@ -169,7 +169,7 @@ if ($url =='djiant.com' ) {
     
       <li  style="padding:5px 0px 5px 0px;" >	
         <div class="row" style="margin: 0px;padding: 0px; ">
-        <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;display:flex;align-items: flex-end;">
+        <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;display:flex;align-items: flex-end;font-weight: 700;">
           Regional Economies
         </div>
       </div>
@@ -178,7 +178,7 @@ if ($url =='djiant.com' ) {
       <ul class="domaine active" style="margin-left: 4px;padding-top:0px;margin-top:-15px;">
        
         <div class="row">
-        <div class="djiant-col-md-11 " style="margin-left: -7px;">
+        <div class="djiant-col-md-11 " style="margin-left: -9px;">
         <div class="djiant-col-md-2 " style="margin-right: 6px;height:335px;padding-top:36px;">
                          <div class="thumbnail active-network" id="TECHNOPARKS" style="height:336px;">
                                               <img src="assets/image/reg.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
@@ -347,7 +347,7 @@ if ($url =='djiant.com' ) {
     
 <li  style="padding:20px 0px 5px 0px;" >	
 <div class="row" style="margin: 0px;padding: 0px; ">
-<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;display:flex;align-items: flex-end;">
+<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width: 400px;display:flex;align-items: flex-end;font-weight: 700;">
 Information Technologies
 </div>
 </div>
