@@ -119,7 +119,7 @@ if ($url =='djiant.com' ) {
                                                                            <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> A Djiant Network of regional business communities in partnership with local newspapers. </p>
                                                                            </div>
                                                                        </div>
-                                                                       <div class="row" style="margin-top: 63px;">
+                                                                       <div class="row" style="margin-top: 45px;">
                                                                                <div class="col-md-4">
                                                                                  <h4 style="margin-bottom: 0px;">20</h4>
                                                                                  <p style="margin-top: 0px;" > Countries   </p>
@@ -186,17 +186,17 @@ if ($url =='djiant.com' ) {
                                                <div class="row">
                                                  <div class="col-md-12">
                                                    <h4 style=" font-size: 14px; margin-bottom: 0px; margin-top: 0px;">Regional Economies</h4>
-                                                   <p style="font-family: calibri; font-weight: 100; margin-top: 0px;"> Places where tomorow’s economy is invented.   </p>
+                                                   <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">A Djiant Network of regional business communities in partnership with local newspapers.  </p>
                                                    </div>
                                                </div>
-                                               <div class="row" style="margin-top: 63px;">
+                                               <div class="row" style="margin-top: 46px;">
                                                        <div class="col-md-4">
-                                                         <h4 style="margin-bottom: 0px;">71</h4>
+                                                         <h4 style="margin-bottom: 0px;">20</h4>
                                                          <p style="margin-top: 0px;" > Countries   </p>
                                                        </div>
                                                       
                                                        <div class="col-md-4">
-                                                         <h4 style="margin-bottom: 0px;">900</h4>
+                                                         <h4 style="margin-bottom: 0px;">251</h4>
                                                          <p style="margin-top: 0px;">Communities    </p>
                                                        </div>
                                                        
