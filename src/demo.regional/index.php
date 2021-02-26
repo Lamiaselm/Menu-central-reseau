@@ -109,7 +109,7 @@ if ($url =='djiant.com' ) {
          
           
           <div class="row" id="network_4" style="display:block;">
-                                         <div class="djiant-col-md-2"  style="margin-left: 44px; margin-right: 5px;padding-top:21px;" >
+                                         <div class="djiant-col-md-2"  style="margin-left: 45px; margin-right: 5px;padding-top:21px;" >
                                                 <div class="thumbnail active-network" id="TECHNOPARKS"style="height:335px;">
                                                                       <img src="assets/image/reg.png" alt="100%x200" style="width: 100%; height: 140px; display: block;" >
                                                                       <div class="caption popupInfo-body ">
@@ -175,7 +175,7 @@ if ($url =='djiant.com' ) {
       </div>
     
     
-      <ul class="domaine active" style="margin-left: 3px;padding-top:0px;margin-top:-15px;">
+      <ul class="domaine active" style="margin-left: 4px;padding-top:0px;margin-top:-15px;">
        
         <div class="row">
         <div class="djiant-col-md-11 " style="margin-left: -7px;">
@@ -353,7 +353,7 @@ Information Technologies
 </div>
 
 
-<ul class="domaine active" style="margin-left: 3px;">
+<ul class="domaine active" style="margin-left: 4px;">
 <div class="row">
 <div class="djiant-col-md-11 " style="margin-left: -7px;">
 <div class="djiant-col-md-2" style="margin-right: 6px;margin-top:20px;">
