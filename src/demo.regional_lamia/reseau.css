@@ -1,0 +1,50 @@
+.reseau-container{
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+#racine{
+    margin-top: 10px;
+    margin-left: 25px;
+   
+}
+.popupInfo-reseau{
+    width: 97%;
+    height: 100%;
+    position: absolute;
+    left: 40px;
+    top: 0%;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+    border-radius: 1px !important;
+}
+#close{
+    margin-right: 10px;
+    float: right;
+    padding: 6px 24px;
+    color: white;
+    font-weight: 100;
+    border: none;
+    font-family: 'calibri',sans-serif;
+    outline: none;
+    border-radius: 2px !important;
+    font-size: 13px;
+    background-color: #949493;
+}
+
+
+.the-web {
+    font-weight: 100;
+    color: #727271;
+    font-family: 'calibri',sans-serif;
+    font-size: 13px !important;
+    margin-left: 5px !important;
+}
+.here{
+    font-weight: 100;
+    color: #383838;
+    font-size: 12px;
+    font-family: 'calibri',sans-serif;
+}
