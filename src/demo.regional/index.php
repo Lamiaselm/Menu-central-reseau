@@ -392,24 +392,7 @@ Information Technologies
                  </div>
 </div>
 </div>
-<div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
-<div class="thumbnail disabled-network">
-                <img src="assets/image/Data.png"  style="width: 100%; height: 140px; display: block;" >
-                <div class="caption popupInfo-body ">
-                 <div class="row">
-                   <div class="col-md-12">
-                     <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">DATA </h4>
-                     <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
-                    Coming soon  </p>
-                     </div>
-                 </div>
-                 <div class="row" style="margin-top: 122px;">
-                        
-                         
-                       </div>
-               </div>
-</div>
-</div>
+
 <div class="djiant-col-md-2 " style="margin-right: 6px;margin-top:20px;">
 <div class="thumbnail disabled-network">
               <img src="assets/image/Digital ARts.png"  style="width: 100%; height: 140px; display: block;" >
