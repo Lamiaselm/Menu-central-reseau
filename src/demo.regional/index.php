@@ -471,7 +471,7 @@ Information Technologies
               <div class="caption popupInfo-body ">
                <div class="row">
                  <div class="col-md-12">
-                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">Coding</h4>
+                   <h4 style=" font-size: 14px;margin-bottom: 0px; margin-top: 0px;">CODING</h4>
                   <p style="font-family: calibri; font-weight: 100; margin-top: 0px;">
                   Coming soon  </p>
                    </div>
