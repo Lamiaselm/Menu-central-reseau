@@ -163,7 +163,7 @@ if ($url =='djiant.com' ) {
               </div>
             <!-- end network_4-->
             <div class="row" id="network_5" style="display:none;">
-           <div class="scrollable" style="max-height: 530px; margin-right:20px;width:100%;">
+           <div class="scrollable" style="height: 80vh; margin-right:20px;width:100%;">
            <div class="container" style="width:100%">
         <ul id="racine"style="margin-left:38px;" >	
     
